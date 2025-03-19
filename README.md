@@ -18,7 +18,7 @@ Waits for a button press to transition to START_GAME.
 
 ## Start Game
 Resets the chasing light and randomly selects (a jackpotIndex) one of the LEDs to act as the target.
-Immediately transitions to PLAY_GAME.
+Displays the jackpot briefly with a blue color. Immediately transitions to PLAY_GAME.
 
 ## Play Game
 The chasing light (a single lit LED) moves around Ring 1 at intervals (set by chaseInterval).
