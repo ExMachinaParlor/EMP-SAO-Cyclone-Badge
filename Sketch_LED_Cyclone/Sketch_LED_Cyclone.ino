@@ -7,9 +7,9 @@
 #define RING2_PIN       9  // Data pin for the second NeoPixel ring
 #define BUTTON_PIN      3  // Push button input pin
 
-// *** MAKE SURE these match the actual number of LEDs on each ring! ***
-#define RING1_NUMPIXELS 24 // <-- If your outer ring has 24, change this to 24
-#define RING2_NUMPIXELS 16 // <-- Same check for the second ring
+// Updated to match the actual number of LEDs on each ring:
+#define RING1_NUMPIXELS 24 // Ring 1 now has 24 LEDs
+#define RING2_NUMPIXELS 16 // Ring 2 remains at 16 LEDs
 
 /***********************************************************
    NeoPixel Objects
@@ -34,7 +34,7 @@ GameState currentState = ATTRACT_MODE;
  ***********************************************************/
 // Timing & Animation
 unsigned long chaseInterval = 80;   // Delay (ms) between increments of the chase
-unsigned long lastChaseUpdate = 0;  // Tracks when we last moved the chase light
+unsigned long lastChaseUpdate = 0;    // Tracks when we last moved the chase light
 
 // LED indices
 int chaseIndex = 0;      // Current chasing light position on ring1
@@ -103,7 +103,7 @@ void attractMode() {
   unsigned long currentTime = millis();
 
   // Example: rotate a single pixel around ring1, 
-  // and maybe blink ring2 in a different color
+  // and blink ring2 in a different color.
   if (currentTime - lastUpdate > 100) {
     lastUpdate = currentTime;
 
@@ -116,7 +116,7 @@ void attractMode() {
     // Blink ring2 every few steps
     ring2.clear();
     if (attractIndex % 4 < 2) {
-      for(int i = 0; i < RING2_NUMPIXELS; i++) {
+      for (int i = 0; i < RING2_NUMPIXELS; i++) {
         ring2.setPixelColor(i, ring2.Color(0, 30, 0)); // Dim green
       }
     }
@@ -134,15 +134,15 @@ void attractMode() {
 
 /***********************************************************
    State: Start Game
-   Initialize variables for a new round
+   Initialize variables for a new round and show jackpot on Ring 1.
  ***********************************************************/
 void startGame() {
-  // Pick a random jackpot index or use a fixed one
+  // Pick a random jackpot index for Ring 1
   jackpotIndex = random(0, RING1_NUMPIXELS);
-  Serial.print("New Game - Jackpot Index: ");
+  Serial.print("New Game - Jackpot Index (Ring 1): ");
   Serial.println(jackpotIndex);
 
-  // Reset the chase
+  // Reset the chase and variables
   chaseIndex = 0;
   lastChaseUpdate = millis();
   winner = false;
@@ -153,13 +153,22 @@ void startGame() {
   ring2.clear();
   ring2.show();
 
+  // Show jackpot on Ring 1: light the jackpot LED in blue for 2 seconds
+  ring1.setPixelColor(jackpotIndex, ring1.Color(0, 0, 255)); // Blue indicator
+  ring1.show();
+  delay(2000);
+
+  // Clear the jackpot indicator from Ring 1 before starting the chase
+  ring1.clear();
+  ring1.show();
+
   // Transition to PLAY_GAME
   currentState = PLAY_GAME;
 }
 
 /***********************************************************
    State: Play Game
-   Move the chasing light around ring1.
+   Move the chasing light around Ring 1.
    If button pressed, capture result.
  ***********************************************************/
 void playGame() {
@@ -172,9 +181,9 @@ void playGame() {
     // Move to next LED
     chaseIndex = (chaseIndex + 1) % RING1_NUMPIXELS;
 
-    // Light up ring1
+    // Light up Ring 1 with the chasing light (red)
     ring1.clear();
-    ring1.setPixelColor(chaseIndex, ring1.Color(255, 0, 0)); // Red chasing light
+    ring1.setPixelColor(chaseIndex, ring1.Color(255, 0, 0));
     ring1.show();
   }
 
@@ -182,7 +191,7 @@ void playGame() {
   if (buttonPressed) {
     buttonPressed = false;
 
-    // Check if chaseIndex == jackpotIndex
+    // Check if the chasing light stops at the jackpot
     if (chaseIndex == jackpotIndex) {
       winner = true;
       Serial.println("Jackpot HIT!");
@@ -200,37 +209,34 @@ void playGame() {
 
 /***********************************************************
    State: Result
-   Show win/lose animation on both rings
+   Show win/lose animation on both rings.
  ***********************************************************/
 void showResult() {
-  // Quick animation demonstration
   if (winner) {
-    // Win animation: flash ring1 a few times, ring2 all green
+    // Win animation: flash both rings green
     for (int i = 0; i < 3; i++) {
-      ring1.fill(ring1.Color(0, 255, 0)); // Green flash
+      ring1.fill(ring1.Color(0, 255, 0));
       ring1.show();
-      ring2.fill(ring2.Color(0, 255, 0)); // All green
+      ring2.fill(ring2.Color(0, 255, 0));
       ring2.show();
       delay(300);
 
-      ring1.clear(); 
+      ring1.clear();
       ring1.show();
-      ring2.clear(); 
+      ring2.clear();
       ring2.show();
       delay(300);
     }
   } else {
-    // Lose animation: highlight the jackpot in one color, 
-    // the player's stop in another
+    // Lose animation: show jackpot and stopped LED on Ring 1, and flash Ring 2 red
     for (int i = 0; i < 3; i++) {
       ring1.clear();
       // Jackpot LED in yellow
-      ring1.setPixelColor(jackpotIndex, ring1.Color(255, 255, 0)); 
+      ring1.setPixelColor(jackpotIndex, ring1.Color(255, 255, 0));
       // Stopped LED in red
       ring1.setPixelColor(chaseIndex, ring1.Color(255, 0, 0));
       ring1.show();
 
-      // Ring2 in red
       ring2.fill(ring2.Color(255, 0, 0));
       ring2.show();
       delay(300);
@@ -243,15 +249,15 @@ void showResult() {
     }
   }
 
-  // After animation, go back to attract mode
+  // After animation, return to attract mode
   currentState = ATTRACT_MODE;
 }
 
 /***********************************************************
    readButton()
-   - Reads button with basic debounce
-   - Sets a global 'buttonPressed' flag on the falling edge
-   - Now includes a debug print for the press
+   - Reads button state with basic debounce.
+   - Sets a global 'buttonPressed' flag on the falling edge.
+   - Includes a debug print for the press.
  ***********************************************************/
 void readButton() {
   bool currentButtonState = digitalRead(BUTTON_PIN);
@@ -261,6 +267,5 @@ void readButton() {
     Serial.println("Button pressed!");
     buttonPressed = true;
   }
-
   lastButtonState = currentButtonState;
 }
