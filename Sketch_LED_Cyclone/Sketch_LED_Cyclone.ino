@@ -5,7 +5,7 @@
  ***********************************************************/
 #define RING1_PIN       6  // Data pin for the first NeoPixel ring
 #define RING2_PIN       9  // Data pin for the second NeoPixel ring
-#define BUTTON_PIN      2  // Push button input pin
+#define BUTTON_PIN      3  // Push button input pin
 
 // *** MAKE SURE these match the actual number of LEDs on each ring! ***
 #define RING1_NUMPIXELS 24 // <-- If your outer ring has 24, change this to 24
