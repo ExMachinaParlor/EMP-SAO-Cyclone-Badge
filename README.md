@@ -28,3 +28,13 @@ When the button is pressed, the game captures the position and transitions to RE
 If chaseIndex matches jackpotIndex, it’s a win animation (flashing green).
 Otherwise, a lose animation highlights the difference.
 After the animation, returns to ATTRACT_MODE.
+
+# Coming Soon
+## SAO Board Version
+<img src='./PCB/EMP_Cyclone_SAO_v1/EMP_Cyclone_SAO_v1.png' width='300'>
+
+# Requirments
+- Arduino Nano Every
+- 1x 16 LED Neopixel ring
+- 1x 24 LED Neopixel ring
+- 3x 6mm Push button
