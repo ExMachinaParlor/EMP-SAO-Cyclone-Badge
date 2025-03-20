@@ -31,7 +31,7 @@ After the animation, returns to ATTRACT_MODE.
 
 # Coming Soon
 ## SAO Board Version
-<img src='./PCB/EMP_Cyclone_SAO_v1/EMP_Cyclone_SAO_v1.png' width='300'>
+<img src='./PCB/EMP_Cyclone_SAO_v1/EMP_Cyclone_SAO_v1.png' width='400'>
 
 # Requirments
 - Arduino Nano Every
