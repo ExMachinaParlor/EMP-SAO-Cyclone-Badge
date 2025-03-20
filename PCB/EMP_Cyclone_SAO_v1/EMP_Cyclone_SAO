@@ -1,0 +1,4 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"A1","Arduino_Nano_Every","https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf","PCM_arduino-library:Arduino_Nano_Every_Tile","1",""
+"SW1,SW2,SW3","SW_Push","~","Button_Switch_THT:SW_PUSH-12mm","3",""
+"U1,U2","~","","-- mixed values --","2",""
