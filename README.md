@@ -1,6 +1,6 @@
 # LED_Ring_Cyclone
 
-<img src="https://github.com/user-attachments/assets/e1f0d04a-7f3e-4e43-b389-573b133a3f6b"/>
+<img src="./Assets/Cyclone_Demo_v1.gif"/>
 
 # Description
 Arcade game similar to the classic Cyclone. Made to run on Arduino and to interface with [Neopixel rings](https://www.adafruit.com/product/1463#technical-details).
@@ -31,7 +31,7 @@ After the animation, returns to ATTRACT_MODE.
 
 # Coming Soon
 ## SAO Board Version
-<img src='./PCB/EMP_Cyclone_SAO_v1/EMP_Cyclone_SAO_v1.png' width='400'>
+<img src='./Assets/PCBv1.png' width='400'>
 
 # Requirments
 - Arduino Nano Every
