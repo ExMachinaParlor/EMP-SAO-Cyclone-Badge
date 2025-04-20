@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "neopixel_ring_16-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/NeoPixel/neopixel_ring_16/neopixel_ring_16-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "neopixel_ring_16")(type "KiCad")(uri "${KIPRJMOD}/neopixel_ring_16.kicad_sym")(options "")(descr ""))
+)
