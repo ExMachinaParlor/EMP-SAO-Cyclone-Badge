@@ -1,0 +1,6395 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "77cb3e63-3cf0-4141-9fd6-a9d4f1b44623")
+	(paper "User" 302.59 210.007)
+	(lib_symbols
+		(symbol "Adafruit NeoPixel Ring 16-eagle-import:+5V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit NeoPixel Ring 16-eagle-import:C-USC0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.016 -4.191 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit NeoPixel Ring 16:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, American symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-USC0603_1_0"
+				(arc
+					(start 0 -1.0161)
+					(mid -1.302 -1.2303)
+					(end -2.4668 -1.8504)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.4892 -1.8541)
+					(mid 1.3158 -1.2194)
+					(end 0 -1)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit NeoPixel Ring 16-eagle-import:C-USC0603K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.016 -4.191 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit NeoPixel Ring 16:C0603K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, American symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-USC0603K_1_0"
+				(arc
+					(start 0 -1.0161)
+					(mid -1.302 -1.2303)
+					(end -2.4668 -1.8504)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.4892 -1.8541)
+					(mid 1.3158 -1.2194)
+					(end 0 -1)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit NeoPixel Ring 16-eagle-import:FIDUCIAL{dblquote}{dblquote}"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Adafruit NeoPixel Ring 16:FIDUCIAL_1MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FIDUCIAL{dblquote}{dblquote}_1_0"
+				(polyline
+					(pts
+						(xy -0.762 0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit NeoPixel Ring 16-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.905 -3.175 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit NeoPixel Ring 16-eagle-import:PINHD-1X1CB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 3.175 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Adafruit NeoPixel Ring 16:1X01-CLEANBIG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin header 1x1 for 0.1\" spacing\n\nWith round pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PINHD-1X1CB_1_0"
+				(polyline
+					(pts
+						(xy -6.35 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Adafruit NeoPixel Ring 16-eagle-import:WS28115050"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WS28115050_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 10.16) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 6.35) (xy -5.08 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -6.35 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -3.81 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy -3.81 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 8.89) (xy -5.08 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 6.35) (xy 0 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 8.89) (xy -5.08 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 10.16) (xy -7.62 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 10.16) (xy -2.54 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -2.54 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 8.89) (xy -2.54 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.81 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 6.35) (xy 2.54 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 8.89) (xy -1.27 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.35) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "WS2811"
+					(at 3.81 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify right top)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "DI"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "DO"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 15.24 270)
+					(length 5.08)
+					(name "LEDVDD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "LEDVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 15.24 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 160.02 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "016516f5-beea-4417-9c8e-f24e3378d3dd")
+	)
+	(junction
+		(at 203.2 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "071d0d69-c60d-43e0-97c0-0b45b42e577c")
+	)
+	(junction
+		(at 205.74 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0734fa87-aabb-4e24-b1c5-b969cdc47f22")
+	)
+	(junction
+		(at 177.8 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e2e64c1-8b20-4b27-8c92-060bc7f256e8")
+	)
+	(junction
+		(at 127 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fd25765-b062-4d65-956d-84e2373d10af")
+	)
+	(junction
+		(at 236.22 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ceb8b6d-d3bf-497d-8292-3f71f3dedb19")
+	)
+	(junction
+		(at 154.94 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ffd6650-f075-4a4e-8a00-8ea8f15bc7e8")
+	)
+	(junction
+		(at 203.2 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20c321ef-87fe-44c7-95e7-7f63f0532a7a")
+	)
+	(junction
+		(at 104.14 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "326b4dc0-2769-42c1-b535-d7c49fd1136c")
+	)
+	(junction
+		(at 167.64 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3335f62c-ed2f-4d05-910d-08e6c6b71ecf")
+	)
+	(junction
+		(at 127 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38c853c5-809f-4c53-b164-22435c562798")
+	)
+	(junction
+		(at 167.64 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a253c3f-1b5d-4ead-a4b8-fdba0ff1f6c7")
+	)
+	(junction
+		(at 104.14 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fe3e52a-5542-4b6e-a82d-e79406245b24")
+	)
+	(junction
+		(at 129.54 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ce5daab-f1fa-477b-8113-22e765d4c866")
+	)
+	(junction
+		(at 167.64 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51cf16ac-846d-44c2-93a7-e6791b0e2d1a")
+	)
+	(junction
+		(at 210.82 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b8c7605-cb3d-40ed-8989-a55a63c61121")
+	)
+	(junction
+		(at 109.22 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c911715-e094-4267-b3c8-be9776c616be")
+	)
+	(junction
+		(at 180.34 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5febcdad-0e4b-433d-9660-2bdf9b7161da")
+	)
+	(junction
+		(at 101.6 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68ec062a-c112-429f-8b31-826303b82f46")
+	)
+	(junction
+		(at 134.62 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a1eb75f-ebff-4862-9c29-a3231e341da3")
+	)
+	(junction
+		(at 228.6 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b42db98-ef2a-4b37-a3cb-a1255ab34d47")
+	)
+	(junction
+		(at 185.42 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f2d576b-9d95-44bf-89d2-ee55a55a47ba")
+	)
+	(junction
+		(at 134.62 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7334bdeb-a09a-45b1-86d5-09dd25aaf32b")
+	)
+	(junction
+		(at 152.4 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73cab17c-c646-4253-8109-41f46babf5c0")
+	)
+	(junction
+		(at 228.6 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77922bf7-15fe-496d-b7da-bc776eb38467")
+	)
+	(junction
+		(at 152.4 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7932aeb4-179b-4f44-b018-e94fd6394fde")
+	)
+	(junction
+		(at 180.34 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "819e6c4a-bd75-4c49-b449-682e9cc102c8")
+	)
+	(junction
+		(at 167.64 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82936e9d-8e5c-4cac-b1b7-c62e41c092b8")
+	)
+	(junction
+		(at 177.8 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8633b94d-ebf6-46ad-857e-ddfe2f9aac4d")
+	)
+	(junction
+		(at 231.14 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87d07f61-a2c7-4864-9adc-4e9d369f9dbf")
+	)
+	(junction
+		(at 160.02 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a288907e-7a38-47fb-9c8a-cb92a1109242")
+	)
+	(junction
+		(at 167.64 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2e2cadd-4af2-43b1-ae7d-605476f8aeb0")
+	)
+	(junction
+		(at 167.64 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aadc809e-cdd9-4179-b9ea-fada0ecc3aa0")
+	)
+	(junction
+		(at 109.22 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5463e02-dc26-417c-be02-0cc02fefe0bb")
+	)
+	(junction
+		(at 185.42 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbc814b8-5dd7-480c-9c28-0d653303c7d3")
+	)
+	(junction
+		(at 210.82 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4fcee9f-1239-43cf-a037-09dcf2b6b68e")
+	)
+	(junction
+		(at 101.6 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3b4bf3-fd91-4f8d-aadf-e7cd937e1715")
+	)
+	(junction
+		(at 236.22 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dae6cb65-d992-4398-8430-3795f1748c7d")
+	)
+	(junction
+		(at 205.74 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e03b6899-4f74-470c-8be3-a3abadc187fb")
+	)
+	(junction
+		(at 129.54 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e68fbae6-47a8-4212-808d-9efa2686ccd2")
+	)
+	(junction
+		(at 154.94 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1560e09-f44f-4030-bbbd-0d094796c3a1")
+	)
+	(junction
+		(at 231.14 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f328192d-b2c8-4018-a198-324d53620215")
+	)
+	(wire
+		(pts
+			(xy 101.6 142.24) (xy 101.6 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "031b6b73-fc67-42d3-98ee-1c6346c4d46a")
+	)
+	(wire
+		(pts
+			(xy 185.42 134.62) (xy 185.42 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0357c8d9-6cf1-46b0-a382-4a08e06e875f")
+	)
+	(wire
+		(pts
+			(xy 266.7 124.46) (xy 269.24 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "061015e7-31df-4545-944d-3c28386d4280")
+	)
+	(wire
+		(pts
+			(xy 236.22 81.28) (xy 236.22 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "064905c3-7147-4b79-9f04-c745c7ff994f")
+	)
+	(wire
+		(pts
+			(xy 185.42 81.28) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0745f45a-2b63-4d12-b933-b54bb7f0e986")
+	)
+	(wire
+		(pts
+			(xy 256.54 71.12) (xy 256.54 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0af6764a-8721-43d8-8d80-34f873ecdc65")
+	)
+	(wire
+		(pts
+			(xy 236.22 81.28) (xy 261.62 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b130513-673d-4afd-bb8c-0b6839bed2a7")
+	)
+	(wire
+		(pts
+			(xy 228.6 88.9) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b325672-ef3d-4467-a830-43c22fb2af9b")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 109.22 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c2fffb2-740a-41eb-a4b7-13106348b40a")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 203.2 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c3ae8f9-0bed-4077-a6ba-1432121e8e5a")
+	)
+	(wire
+		(pts
+			(xy 269.24 121.92) (xy 269.24 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0dd9cfcb-2bf5-4229-8f49-4ac59076bca6")
+	)
+	(wire
+		(pts
+			(xy 134.62 134.62) (xy 160.02 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "106cf1d5-6236-471c-99d4-e976491ed1bb")
+	)
+	(wire
+		(pts
+			(xy 185.42 81.28) (xy 210.82 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "10f5e00d-0b08-4053-bde3-21d5a79e7212")
+	)
+	(wire
+		(pts
+			(xy 279.4 160.02) (xy 269.24 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "16ebda6b-5fc3-4a95-b4de-3b80abb957bd")
+	)
+	(wire
+		(pts
+			(xy 76.2 142.24) (xy 76.2 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1910e2ef-d2c9-4924-8463-1ce4a7c9adde")
+	)
+	(wire
+		(pts
+			(xy 228.6 142.24) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1a0c1c20-686c-4581-ab11-0053ac2cc424")
+	)
+	(wire
+		(pts
+			(xy 256.54 45.72) (xy 256.54 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "28b60da0-00d0-40a4-9d9c-ee951b8a3b79")
+	)
+	(wire
+		(pts
+			(xy 154.94 114.3) (xy 167.64 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "28f3900f-3067-42be-9337-446076f1639a")
+	)
+	(wire
+		(pts
+			(xy 66.04 160.02) (xy 63.5 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ca88eb0-df0a-4df7-81be-fa18a9dc0424")
+	)
+	(wire
+		(pts
+			(xy 205.74 167.64) (xy 231.14 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2e468ee7-debd-4f95-9918-824fc1e88301")
+	)
+	(wire
+		(pts
+			(xy 167.64 137.16) (xy 177.8 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "30f030c0-1373-48e4-843a-f3441bf945d5")
+	)
+	(wire
+		(pts
+			(xy 134.62 134.62) (xy 134.62 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "35cf7000-5fc4-44b2-a3f4-c0291ca6f2ad")
+	)
+	(wire
+		(pts
+			(xy 109.22 134.62) (xy 134.62 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3947f430-9dd6-49b9-8a91-b661af99c1ed")
+	)
+	(wire
+		(pts
+			(xy 254 137.16) (xy 254 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3b8a8fc8-3b11-478a-b866-e3828183a01d")
+	)
+	(wire
+		(pts
+			(xy 134.62 81.28) (xy 160.02 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3c548040-c95f-42a1-af5e-4ebc180d1dec")
+	)
+	(wire
+		(pts
+			(xy 152.4 142.24) (xy 152.4 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "400ba956-9b8a-401c-9462-5bac6f8b5c31")
+	)
+	(wire
+		(pts
+			(xy 78.74 114.3) (xy 104.14 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "414be5b2-4d8e-405e-89c2-a2d48fa2dbb1")
+	)
+	(wire
+		(pts
+			(xy 203.2 142.24) (xy 203.2 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "441af63c-7f9b-444a-a0d8-53de89e98b5d")
+	)
+	(wire
+		(pts
+			(xy 210.82 88.9) (xy 210.82 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "458f9779-46ff-416e-9ed1-96c7006fcaab")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 127 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "476b8b91-ded3-4bc5-9f96-cbf51e4ea22d")
+	)
+	(wire
+		(pts
+			(xy 236.22 134.62) (xy 261.62 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "478f535a-f664-40b3-a38a-e043d6086dcd")
+	)
+	(wire
+		(pts
+			(xy 167.64 167.64) (xy 180.34 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4de958b5-5867-4126-9a0d-0d19f3a97553")
+	)
+	(wire
+		(pts
+			(xy 177.8 137.16) (xy 203.2 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4e1aae89-836a-43e7-9888-f971fa47b03c")
+	)
+	(wire
+		(pts
+			(xy 129.54 167.64) (xy 154.94 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53fb6734-16be-4a73-8acb-af083bbf93f7")
+	)
+	(wire
+		(pts
+			(xy 104.14 167.64) (xy 129.54 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "563308ba-66b3-453d-b312-071c673993a6")
+	)
+	(wire
+		(pts
+			(xy 261.62 81.28) (xy 261.62 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58522f5f-fe6e-41f9-a9d9-5c6b1ff93e62")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "60dcd19f-0383-47ea-ab05-cc0a51da636d")
+	)
+	(wire
+		(pts
+			(xy 180.34 167.64) (xy 205.74 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "66931e27-127a-4470-93b4-3602a3900511")
+	)
+	(wire
+		(pts
+			(xy 127 83.82) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "69f6f785-343b-43e1-afe9-7f0a43d40344")
+	)
+	(wire
+		(pts
+			(xy 167.64 134.62) (xy 185.42 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e58f445-6838-4c4f-947e-a924ec7e619c")
+	)
+	(wire
+		(pts
+			(xy 231.14 114.3) (xy 256.54 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6f338732-14a6-44fa-85e5-50487a08217d")
+	)
+	(wire
+		(pts
+			(xy 127 142.24) (xy 127 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "70600612-974a-4380-a136-75ff2a438caf")
+	)
+	(wire
+		(pts
+			(xy 160.02 134.62) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "710dcbd9-2ccc-4207-ac24-2fd60789a882")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "717204ab-3936-4adb-9103-883ed3ca750a")
+	)
+	(wire
+		(pts
+			(xy 261.62 134.62) (xy 261.62 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "743aa759-ae4e-4dc8-a6ca-42b66dba07c3")
+	)
+	(wire
+		(pts
+			(xy 78.74 167.64) (xy 104.14 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "74f4ff4a-9af7-4e7e-a69f-51e19c7c1d32")
+	)
+	(wire
+		(pts
+			(xy 109.22 142.24) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7764b313-6b2b-4a3f-9c40-5f08439c8cda")
+	)
+	(wire
+		(pts
+			(xy 177.8 142.24) (xy 177.8 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7807455a-4d62-4622-94f0-4766c7297860")
+	)
+	(wire
+		(pts
+			(xy 83.82 88.9) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d2dc0b6-f327-4e6b-9e63-e5b6ac31e3b0")
+	)
+	(wire
+		(pts
+			(xy 109.22 81.28) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d63e0a9-c868-4cf6-8f31-5bdb60049069")
+	)
+	(wire
+		(pts
+			(xy 160.02 134.62) (xy 160.02 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8039157d-ec16-4384-a17c-2b1db3c58c33")
+	)
+	(wire
+		(pts
+			(xy 76.2 83.82) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8175ccb3-e3f9-43b4-b062-3ae4a4b8f457")
+	)
+	(wire
+		(pts
+			(xy 180.34 114.3) (xy 205.74 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8280d089-b0bc-4b52-afbd-741a645e4eba")
+	)
+	(wire
+		(pts
+			(xy 185.42 134.62) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "86e83439-b598-4112-86cf-344b8df306ce")
+	)
+	(wire
+		(pts
+			(xy 236.22 134.62) (xy 236.22 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "88b11e2d-e26f-4678-bc0a-a0e471cce1ca")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c07cbf2-24b6-402e-b682-5dc880af121e")
+	)
+	(wire
+		(pts
+			(xy 83.82 142.24) (xy 83.82 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8dc1791a-9f0a-487d-be42-22aa1ccab999")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 76.2 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "92612a24-e438-4794-b895-eef91c575456")
+	)
+	(wire
+		(pts
+			(xy 231.14 167.64) (xy 256.54 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "94089973-879d-4717-aae6-5db3bd53e4f3")
+	)
+	(wire
+		(pts
+			(xy 83.82 81.28) (xy 109.22 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "99ecfe7d-26f4-4574-8ced-e94d6c4ddd4b")
+	)
+	(wire
+		(pts
+			(xy 63.5 127) (xy 66.04 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "99f4000e-4ca8-4154-acaa-5bed6e4eba81")
+	)
+	(wire
+		(pts
+			(xy 203.2 83.82) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9c87fb31-f184-49ed-b33c-1065d13c9506")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a189a7b3-f484-4dda-8bbf-89c1e9507663")
+	)
+	(wire
+		(pts
+			(xy 203.2 137.16) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a2b7c689-9463-4a56-88ab-9d8659242a43")
+	)
+	(wire
+		(pts
+			(xy 167.64 114.3) (xy 180.34 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a46024ae-0be1-44b8-ae3d-5cf71c338927")
+	)
+	(wire
+		(pts
+			(xy 228.6 83.82) (xy 254 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a68f149c-ce0a-465e-b0a5-7a1d9c3a8545")
+	)
+	(wire
+		(pts
+			(xy 58.42 106.68) (xy 66.04 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa82db5b-1d6a-451d-baf1-dcf5279fd96f")
+	)
+	(wire
+		(pts
+			(xy 83.82 134.62) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab2ea9c6-174b-487d-97ce-e052103b23ba")
+	)
+	(wire
+		(pts
+			(xy 160.02 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "abd6ca42-cfab-4dae-b4ac-380244e1cf17")
+	)
+	(wire
+		(pts
+			(xy 104.14 114.3) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae0db20d-e813-42a2-93d1-df34e34f317f")
+	)
+	(wire
+		(pts
+			(xy 134.62 81.28) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b03314ca-32f3-4d2a-b4bc-eba7bb1b3350")
+	)
+	(wire
+		(pts
+			(xy 177.8 83.82) (xy 203.2 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b639ab46-234b-4094-a528-3cc474ff11e7")
+	)
+	(wire
+		(pts
+			(xy 76.2 137.16) (xy 101.6 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b680e3a8-b0f4-4ff4-b4bf-55aa36edf217")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b9a20abf-3693-49d7-9905-6723e8c841a4")
+	)
+	(wire
+		(pts
+			(xy 127 137.16) (xy 152.4 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bc5bc6aa-6d36-443b-8e04-bd8f43e669f2")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28) (xy 185.42 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c3c366ea-2352-4dd9-881b-d08dd97d9718")
+	)
+	(wire
+		(pts
+			(xy 154.94 167.64) (xy 167.64 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4822ace-48d7-434a-bb5e-b496904217e9")
+	)
+	(wire
+		(pts
+			(xy 210.82 134.62) (xy 236.22 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c82ac7f3-d552-48e1-afea-047fc0324156")
+	)
+	(wire
+		(pts
+			(xy 167.64 83.82) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d99a9901-4561-440d-8b44-380d19a5e499")
+	)
+	(wire
+		(pts
+			(xy 228.6 137.16) (xy 254 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dd2fdcd4-2459-480a-9d06-ba2173697018")
+	)
+	(wire
+		(pts
+			(xy 101.6 137.16) (xy 127 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dd645644-2a5c-48cd-a784-ffc070a6b4ab")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 101.6 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "df4b0b06-20e3-4e5f-86f6-5ebfbdaaf000")
+	)
+	(wire
+		(pts
+			(xy 254 83.82) (xy 254 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e0e6d4b7-b03f-400a-a9ce-ceb50b701fc1")
+	)
+	(wire
+		(pts
+			(xy 167.64 129.54) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e33fad01-9856-4f5a-a1c0-fa46422ba254")
+	)
+	(wire
+		(pts
+			(xy 152.4 137.16) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e6ad4928-1bed-43b6-a614-3683f92b54f3")
+	)
+	(wire
+		(pts
+			(xy 210.82 142.24) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea1f6afe-0ddf-4d92-aa00-afd193dc51ee")
+	)
+	(wire
+		(pts
+			(xy 160.02 81.28) (xy 160.02 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ebe014bb-d678-43f7-b1a8-c2ac0c358431")
+	)
+	(wire
+		(pts
+			(xy 129.54 114.3) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eec5c81b-51c1-40b2-8676-36491a766ed2")
+	)
+	(wire
+		(pts
+			(xy 167.64 134.62) (xy 167.64 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ef944562-df69-400b-9d89-548d4292bf5c")
+	)
+	(wire
+		(pts
+			(xy 101.6 83.82) (xy 127 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f5d471a6-71ae-4404-a3af-25ffd5dbd05d")
+	)
+	(wire
+		(pts
+			(xy 205.74 114.3) (xy 231.14 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f7fac069-954c-4cac-83ee-abdd8aa15942")
+	)
+	(wire
+		(pts
+			(xy 63.5 160.02) (xy 63.5 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f90c8866-eab6-43c1-85ef-c55c23d41360")
+	)
+	(wire
+		(pts
+			(xy 66.04 124.46) (xy 266.7 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd8afd87-ff7b-4ecf-9907-bd67e4e7c409")
+	)
+	(wire
+		(pts
+			(xy 210.82 81.28) (xy 236.22 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fdd6aa6e-ae0c-479a-ac7e-e490b23b928f")
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:C-USC0603K")
+		(at 205.74 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02efd1e5-bc7f-4ff3-a687-1a2d38bdcc76")
+		(property "Reference" "C6"
+			(at 204.724 57.785 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-USC0603K"
+			(at 204.724 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:C0603K"
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAPACITOR, American symbol"
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28806643-827c-4e79-84ea-fc1d24b834af")
+		)
+		(pin "2"
+			(uuid "e505101d-4dbb-45f4-9972-7b0487637261")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 132.08 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03b3f94d-0bb6-4e85-9b0e-05d1380bbb37")
+		(property "Reference" "#P+4"
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 134.62 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 132.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "114f2929-9524-4ee6-be09-9091c37f28b8")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 205.74 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a03364d-cc97-4497-ad9f-d3cc1170a054")
+		(property "Reference" "#P+8"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 208.28 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 205.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "455bc22b-28fa-4632-a087-c7cdaabcf34f")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 167.64 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c1fdc03-8965-4884-8e30-2000d986afe5")
+		(property "Reference" "#SUPPLY13"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 169.545 69.215 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4bef240-0e36-41a4-b59b-95d79376bb49")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 149.86 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ca22ed0-bf76-4825-bfde-fd7f23f13643")
+		(property "Reference" "#SUPPLY12"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.765 69.215 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f66b2f3-1391-41b2-8188-0d2c818ebf0a")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:C-USC0603")
+		(at 111.76 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f053cea-c2f0-425c-bb5c-64c38869c026")
+		(property "Reference" "C1"
+			(at 110.744 57.785 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-USC0603"
+			(at 110.744 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:C0603"
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAPACITOR, American symbol"
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "586ffc9c-70b4-4134-9514-e1406c96c018")
+		)
+		(pin "2"
+			(uuid "bbfa5b9c-82e5-4185-91c9-938c7521234d")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 154.94 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28ae3a09-01a6-4e5c-ba7b-78b3598b8b88")
+		(property "Reference" "LED12"
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "cc43d3ce-6913-4358-bd31-9dc3506fc118")
+		)
+		(pin "DO"
+			(uuid "48f798f1-e5b7-40cd-8545-8368512df248")
+		)
+		(pin "LEDVDD"
+			(uuid "52b44d5d-87cb-4fa2-9cb6-5cc487a8b5da")
+		)
+		(pin "VDD"
+			(uuid "0d592ad3-e4a6-461e-90f2-e4fecb380881")
+		)
+		(pin "VSS"
+			(uuid "729d0f22-c333-4ad5-9819-2cc35cf6b894")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 78.74 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29939ff9-028e-4fd5-b93e-6a1bdf100ea7")
+		(property "Reference" "LED1"
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "dd44be2a-6ea0-49a7-99ea-64e3a50e9fd3")
+		)
+		(pin "DO"
+			(uuid "e98953fe-9178-48cb-a242-ee432bb89e12")
+		)
+		(pin "LEDVDD"
+			(uuid "8f57068f-c1a2-4f10-87f5-7038375289b9")
+		)
+		(pin "VDD"
+			(uuid "5e197b41-7841-4f4a-939d-305db5dabe59")
+		)
+		(pin "VSS"
+			(uuid "9dcff866-688b-4862-91b9-51a524bba970")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:C-USC0603K")
+		(at 238.76 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ab08fb5-3354-4c4c-bf4d-ed5e2d21334e")
+		(property "Reference" "C8"
+			(at 237.744 57.785 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-USC0603K"
+			(at 237.744 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:C0603K"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAPACITOR, American symbol"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e41d7e1-d806-4a27-9237-7b3179b4f425")
+		)
+		(pin "2"
+			(uuid "d8298c55-3eaa-4190-a535-8fce680cf2f2")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 256.54 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30aeb87a-a51f-4515-87c5-6fa711585b5c")
+		(property "Reference" "LED8"
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "f038a045-457f-44d4-bd57-36912023668f")
+		)
+		(pin "DO"
+			(uuid "8a003a4b-023f-42e8-9ad4-4eea6849291e")
+		)
+		(pin "LEDVDD"
+			(uuid "009d78cd-22b0-4637-a339-eb205677a30c")
+		)
+		(pin "VDD"
+			(uuid "51a247ff-c299-4953-b466-1e527a952611")
+		)
+		(pin "VSS"
+			(uuid "0888df35-0703-470b-8acd-f3b7084402e2")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 231.14 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37f8c54b-b045-4674-9fce-919d2ba6b8a0")
+		(property "Reference" "LED7"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "c3117abd-a3c4-4e97-b107-5b747013f184")
+		)
+		(pin "DO"
+			(uuid "c7db741a-4ca6-4cc3-b90e-b12553e098fa")
+		)
+		(pin "LEDVDD"
+			(uuid "26ab9e90-edba-4806-b683-cc20dc80465c")
+		)
+		(pin "VDD"
+			(uuid "52bab634-cada-481c-b804-a1aae66147b5")
+		)
+		(pin "VSS"
+			(uuid "ec26f024-3fda-4912-b649-06d7b641b1e8")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 205.74 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38d63726-ac01-4d18-8b78-7d392357063c")
+		(property "Reference" "LED6"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "06c24a15-ecb5-4972-b5d9-caea73a0d806")
+		)
+		(pin "DO"
+			(uuid "cf4a5c17-8fae-426e-bf16-7cac7abf40d9")
+		)
+		(pin "LEDVDD"
+			(uuid "dac371ca-6582-4844-9bdb-61d11b5a506e")
+		)
+		(pin "VDD"
+			(uuid "a6c3ddc5-6e4a-4624-9816-71da31e23745")
+		)
+		(pin "VSS"
+			(uuid "6609a5c2-96be-4498-acd8-22fe16626599")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 78.74 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "391e83bf-1531-412c-b191-206c2fa80969")
+		(property "Reference" "LED9"
+			(at 78.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 78.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 78.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "315ace63-0895-48b7-b056-1c73b34993a0")
+		)
+		(pin "DO"
+			(uuid "e339fed8-e15f-4371-9bf4-6c34867881a6")
+		)
+		(pin "LEDVDD"
+			(uuid "65964e44-328c-4602-8650-1f332de7df24")
+		)
+		(pin "VDD"
+			(uuid "f62aaf16-7eab-47f4-a6fa-98464defa8a2")
+		)
+		(pin "VSS"
+			(uuid "f96e45a5-d859-497f-be70-18f8759806c6")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 205.74 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c441858-47c4-4422-b74b-b0a41ee54656")
+		(property "Reference" "LED14"
+			(at 205.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 205.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 205.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "ab277af3-478e-44e6-b49e-76491b6360d0")
+		)
+		(pin "DO"
+			(uuid "9909955b-840c-4938-a0b7-cfba84421184")
+		)
+		(pin "LEDVDD"
+			(uuid "c8d0b44f-725c-4d7c-ad72-835542db9be0")
+		)
+		(pin "VDD"
+			(uuid "4d37dc54-7cad-42af-bfd4-9ebd06e6b6c6")
+		)
+		(pin "VSS"
+			(uuid "3b0c1693-af16-4069-936e-afd2499b598d")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 256.54 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42ac9204-495a-4308-86c9-ee3d2a92947b")
+		(property "Reference" "LED16"
+			(at 256.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 256.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 256.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "40e640b3-3a1b-4d15-ab64-4fc9b8d9fc88")
+		)
+		(pin "DO"
+			(uuid "e2134ead-a691-4073-a2d7-08b9f6e97065")
+		)
+		(pin "LEDVDD"
+			(uuid "8ba8ffaa-bd35-4853-beb4-b2c56646e355")
+		)
+		(pin "VDD"
+			(uuid "fe1b9636-004f-47f2-929f-7e91bd739c9b")
+		)
+		(pin "VSS"
+			(uuid "953a4573-4f1e-4d26-94f5-5231f6be88fa")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:C-USC0603K")
+		(at 167.64 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49e3214b-56bd-470c-b689-4cd55f1b114a")
+		(property "Reference" "C4"
+			(at 166.624 57.785 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-USC0603K"
+			(at 166.624 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:C0603K"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAPACITOR, American symbol"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a01650d-6f47-4edd-bf94-6401b9c95a98")
+		)
+		(pin "2"
+			(uuid "28ce8fab-9d11-4766-9e54-79955c05334d")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 256.54 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4afd10a2-0fba-4e94-bca1-10406d76f7aa")
+		(property "Reference" "#SUPPLY2"
+			(at 256.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 258.445 76.835 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 256.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9539958a-847d-4588-ae18-9a9dc8433072")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 220.98 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "593d53c6-171b-46ab-a55d-e1a62bf21055")
+		(property "Reference" "#SUPPLY16"
+			(at 220.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.885 69.215 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 220.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42d630dc-4ca2-4c00-beb9-b545c8c6c7b2")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:FIDUCIAL{dblquote}{dblquote}")
+		(at 30.48 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cf6df6c-98f6-4a11-9aa4-51e30e16c344")
+		(property "Reference" "FID3"
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FIDUCIAL{dblquote}{dblquote}"
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:FIDUCIAL_1MM"
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment."
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 167.64 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69bcc5db-ef87-455d-8aaa-b56ad67ae905")
+		(property "Reference" "#P+2"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 165.1 78.74 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2be152b-5c24-4612-b34d-8847dde456a3")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:C-USC0603K")
+		(at 187.96 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b32aa66-07d0-4406-89b8-fca3b02ff744")
+		(property "Reference" "C5"
+			(at 186.944 57.785 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-USC0603K"
+			(at 186.944 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:C0603K"
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAPACITOR, American symbol"
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af5005c0-4f80-455c-b52d-3e4e4ea57120")
+		)
+		(pin "2"
+			(uuid "eb3b6cbd-1da0-457b-a9c7-a986cbd7f1e6")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:C-USC0603K")
+		(at 132.08 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bacc006-0b8e-451f-8be4-768476ea7cad")
+		(property "Reference" "C2"
+			(at 131.064 57.785 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-USC0603K"
+			(at 131.064 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:C0603K"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAPACITOR, American symbol"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c91328e-5466-47df-9d11-9c73c8c55ccf")
+		)
+		(pin "2"
+			(uuid "fcc1460c-3d99-495f-b277-debdbf309b53")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:PINHD-1X1CB")
+		(at 256.54 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f885de5-e60f-4291-8110-d27daa5dbcb0")
+		(property "Reference" "JP4"
+			(at 253.365 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:1X01-CLEANBIG"
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin header 1x1 for 0.1\" spacing\n\nWith round pins"
+			(at 256.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15adcfb9-dc3e-4e42-9aa5-74cd72bb2c39")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 167.64 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71352300-dbff-444a-aae5-b4deac8f29d4")
+		(property "Reference" "#P+6"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 170.18 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce3c460a-2b58-4544-9a1a-868991b2f85a")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:PINHD-1X1CB")
+		(at 281.94 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "764c98be-600e-40e9-b356-debf1449ac9e")
+		(property "Reference" "JP2"
+			(at 275.59 156.845 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "OUT"
+			(at 275.59 165.1 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:1X01-CLEANBIG"
+			(at 281.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin header 1x1 for 0.1\" spacing\n\nWith round pins"
+			(at 281.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "498aec3f-f8e0-471c-82b3-9d4e9cb56be0")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 104.14 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a4a5229-c1dc-446c-b85c-db453b2f21c4")
+		(property "Reference" "LED2"
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "b03b04d3-92de-4cba-bdbc-a0e323f2d00d")
+		)
+		(pin "DO"
+			(uuid "1872de6b-2f95-4b58-bb70-c6d466dcce25")
+		)
+		(pin "LEDVDD"
+			(uuid "2027ee4c-3af1-48b7-a303-55dcea8cea6f")
+		)
+		(pin "VDD"
+			(uuid "68863748-dbfc-4ce9-8276-6ac35593d1f0")
+		)
+		(pin "VSS"
+			(uuid "64d9c09c-f080-4673-a4b8-8aa3806b2aac")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 187.96 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b4506c0-5f67-4e48-accd-7a5cec255988")
+		(property "Reference" "#P+7"
+			(at 187.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 190.5 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 187.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "270c143b-7281-4067-818f-c4245693e67c")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 149.86 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cf2b00b-1901-4940-9595-b65bf7d7857b")
+		(property "Reference" "#P+5"
+			(at 149.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.4 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 149.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df137fd7-fe8a-4a60-a318-7a692e07320d")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:FIDUCIAL{dblquote}{dblquote}")
+		(at 20.32 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b85f5b4-ba57-496e-8f0d-f2e397334206")
+		(property "Reference" "FID1"
+			(at 20.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FIDUCIAL{dblquote}{dblquote}"
+			(at 20.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:FIDUCIAL_1MM"
+			(at 20.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment."
+			(at 20.32 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 231.14 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c1f432b-ea49-46f9-8695-8cf11a031684")
+		(property "Reference" "LED15"
+			(at 231.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 231.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 231.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "80359542-c08f-4660-8e5f-94404d9d8026")
+		)
+		(pin "DO"
+			(uuid "65c5cb13-cf3d-4636-ae76-0c2172b02b14")
+		)
+		(pin "LEDVDD"
+			(uuid "b0a7034c-6e92-4ef2-bb8d-08dfaed02ab0")
+		)
+		(pin "VDD"
+			(uuid "e8123f02-6c21-4fc0-8214-2561045b5898")
+		)
+		(pin "VSS"
+			(uuid "5dd36eb7-f8c5-4fc5-8da3-a95cbc83a65f")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 220.98 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e1681bf-cef0-49a3-989b-2094fadd7d78")
+		(property "Reference" "#P+9"
+			(at 220.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 223.52 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 220.98 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c4224b9-c983-4026-82b5-fa5e85a0e0be")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 238.76 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94df4990-c6c8-4e5d-af0c-ccafa0fd4865")
+		(property "Reference" "#P+10"
+			(at 238.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 241.3 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 238.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e000383-e63f-401b-95f9-1593daab0506")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:C-USC0603K")
+		(at 149.86 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97081606-1626-479a-8d1b-7231aa290582")
+		(property "Reference" "C3"
+			(at 148.844 57.785 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-USC0603K"
+			(at 148.844 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:C0603K"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAPACITOR, American symbol"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "019ef624-35bd-45fb-8e11-2a2f1ba18641")
+		)
+		(pin "2"
+			(uuid "c8dc21f9-f5ee-416a-9a36-34a2cdaaad8e")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 238.76 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99450e55-38cf-462c-8086-858f790fa9cc")
+		(property "Reference" "#SUPPLY17"
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.665 69.215 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8a158e4-8a81-40fa-b80c-2ecdaad74f3a")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 154.94 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ff4f2b-bbac-4353-b0f0-200d6df2c80b")
+		(property "Reference" "LED4"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "58c14990-ce00-4f10-bb79-550ddc928419")
+		)
+		(pin "DO"
+			(uuid "e936e727-27f7-4147-8dcf-70287dba5f13")
+		)
+		(pin "LEDVDD"
+			(uuid "6a27947c-58e0-4c6b-afcd-36dec6aed48e")
+		)
+		(pin "VDD"
+			(uuid "f5c602e0-9953-4586-9f4a-81c3074935b9")
+		)
+		(pin "VSS"
+			(uuid "c73538cc-3d6f-4c45-8692-b4042c49ceba")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:PINHD-1X1CB")
+		(at 55.88 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7a5908a-3526-4e86-9e7f-26aa46803960")
+		(property "Reference" "JP1"
+			(at 62.23 109.855 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "IN"
+			(at 62.23 101.6 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:1X01-CLEANBIG"
+			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin header 1x1 for 0.1\" spacing\n\nWith round pins"
+			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3dc36a-220e-437e-b780-2ea204875835")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 129.54 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd029096-fa8f-455f-848a-0373376ba328")
+		(property "Reference" "LED11"
+			(at 129.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 129.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 129.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "3fd6bc33-d4c9-4aef-a919-637af132b356")
+		)
+		(pin "DO"
+			(uuid "c7e0280c-4e55-45e0-bfbc-08853e0960c1")
+		)
+		(pin "LEDVDD"
+			(uuid "cb741dfe-b69e-4f92-ba30-88d43ffcd1ff")
+		)
+		(pin "VDD"
+			(uuid "0f1b5704-4b7c-4cfb-a59e-cd9eaa0ad5cf")
+		)
+		(pin "VSS"
+			(uuid "83b6d6f0-af21-4297-857f-bbda6aedea1a")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 132.08 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf82fd39-aa8a-4c22-80ab-89ea9101dc76")
+		(property "Reference" "#SUPPLY11"
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.985 69.215 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9235da4-97c3-4368-9dfd-2d76330484f9")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 256.54 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c092b2ab-c7e7-484c-8270-5f90a979f712")
+		(property "Reference" "#P+11"
+			(at 256.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 259.08 48.26 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 256.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5a5e2b4-6f0d-413c-af5a-c43fef10734f")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 167.64 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c12f6f88-5ea0-451c-bacf-59eed7009775")
+		(property "Reference" "#SUPPLY3"
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.735 120.015 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e398201d-5b64-4265-9877-e6397468facb")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 180.34 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c41eb2ef-7b2b-4217-88c3-fe241606fefa")
+		(property "Reference" "LED5"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "f58d9a29-26e4-4ca4-8ea3-a6ac5ea819b7")
+		)
+		(pin "DO"
+			(uuid "f4cfc335-b70f-498c-a828-89741f0ca7ca")
+		)
+		(pin "LEDVDD"
+			(uuid "f4a673c3-ea54-44f9-9e42-41d9aee2dfa8")
+		)
+		(pin "VDD"
+			(uuid "b4fa5077-96eb-41b3-9c0f-d76f76f9676e")
+		)
+		(pin "VSS"
+			(uuid "ac248fdd-e3b5-4b7d-af83-4f69cb017763")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 167.64 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d07cf61f-ca88-425c-b4e5-033b63bc7273")
+		(property "Reference" "#P+1"
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 165.1 132.08 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02311369-4294-4131-974e-6853747801c0")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:C-USC0603K")
+		(at 220.98 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d978f884-d5d0-46b8-8a6a-4623e31295b9")
+		(property "Reference" "C7"
+			(at 219.964 57.785 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-USC0603K"
+			(at 219.964 62.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:C0603K"
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAPACITOR, American symbol"
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15c1ea7b-27b1-424c-b718-d1e353fc7a13")
+		)
+		(pin "1"
+			(uuid "4fbb8367-43a4-4179-b7af-19b21fcfd84f")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:PINHD-1X1CB")
+		(at 256.54 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da1661b6-3329-4711-b9b1-1cc966ce4377")
+		(property "Reference" "JP3"
+			(at 259.715 46.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "VCC"
+			(at 251.46 46.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:1X01-CLEANBIG"
+			(at 256.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin header 1x1 for 0.1\" spacing\n\nWith round pins"
+			(at 256.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "deb23da5-3a65-4658-bd9f-80e115cb7466")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 111.76 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3793ab6-32aa-4d13-8adf-aa21a7b62eb4")
+		(property "Reference" "#SUPPLY10"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.665 69.215 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12096dfc-e92d-478b-9416-a3bde41066f0")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:FIDUCIAL{dblquote}{dblquote}")
+		(at 33.02 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6de9ab3-abe9-4957-a6cd-b63860e01d38")
+		(property "Reference" "FID2"
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FIDUCIAL{dblquote}{dblquote}"
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:FIDUCIAL_1MM"
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment."
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 167.64 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e952a572-cf19-4ac6-aea9-ac628f394052")
+		(property "Reference" "#SUPPLY1"
+			(at 167.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.735 173.355 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 167.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69c63491-8d6a-42f2-9ac5-824458f9a409")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 129.54 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee2207a2-3f24-408c-8610-3224b2cb8fa2")
+		(property "Reference" "LED3"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "19949db6-40e8-4160-8296-1b1a7cbfe04f")
+		)
+		(pin "DO"
+			(uuid "18ffd4f2-dd8d-41dd-bf7b-0ae1dc0f1663")
+		)
+		(pin "LEDVDD"
+			(uuid "7fabf8b1-3153-4f58-8cdc-3d806d4a3d5e")
+		)
+		(pin "VDD"
+			(uuid "ccab7607-fe30-4719-b79f-cdaa5beb493d")
+		)
+		(pin "VSS"
+			(uuid "7e03a4d7-901d-42ec-8c4a-13e796b9b8a8")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:+5V")
+		(at 111.76 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0c6a0b0-1188-4657-bb88-289c8b1343cd")
+		(property "Reference" "#P+3"
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 114.3 58.42 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 111.76 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53c5273d-fc5c-4dd2-913e-8925249613d5")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#P+3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 187.96 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4f53c37-ae91-45e3-93d2-dc830e8f609f")
+		(property "Reference" "#SUPPLY14"
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.865 69.215 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a1e2454-1bd4-42f2-bc3a-cb0bdbd73ae2")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 180.34 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f75df863-fdc8-4959-b820-e9965c26962a")
+		(property "Reference" "LED13"
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "1d2760b2-1913-499d-afa5-226b03f19f4d")
+		)
+		(pin "DO"
+			(uuid "3b177351-1abd-43de-a695-ac34147afeb7")
+		)
+		(pin "LEDVDD"
+			(uuid "c21bda1a-6eeb-41e2-b37a-d2d150a1a81c")
+		)
+		(pin "VDD"
+			(uuid "ed2c147c-027d-46b0-9f3f-d9b14e9702a5")
+		)
+		(pin "VSS"
+			(uuid "be73da0d-bee5-480f-b309-d17b21c15412")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:GND")
+		(at 205.74 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc1944dd-589f-4617-aa38-8af3fd1ea883")
+		(property "Reference" "#SUPPLY15"
+			(at 205.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.645 69.215 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SUPPLY SYMBOL"
+			(at 205.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c766fddf-e401-4480-ba81-58a323988fa6")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "#SUPPLY15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit NeoPixel Ring 16-eagle-import:WS28115050")
+		(at 104.14 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd61e371-44ff-4539-83c1-c9ae1fb09d6b")
+		(property "Reference" "LED10"
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Adafruit NeoPixel Ring 16:WS28115050"
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "b82d7ce7-5904-4c61-ac40-b6519d2a05a7")
+		)
+		(pin "DO"
+			(uuid "b56f684a-2cec-4b98-ad0a-292c66a315b4")
+		)
+		(pin "LEDVDD"
+			(uuid "dd82f76e-3559-419f-84b6-163338649eff")
+		)
+		(pin "VDD"
+			(uuid "3dbc0bd1-4f61-4f77-bef7-a8482dcb75cc")
+		)
+		(pin "VSS"
+			(uuid "732734ab-3ec1-4c36-9f58-1547df9a83b6")
+		)
+		(instances
+			(project ""
+				(path "/77cb3e63-3cf0-4141-9fd6-a9d4f1b44623"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

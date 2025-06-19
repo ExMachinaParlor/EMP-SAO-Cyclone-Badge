@@ -1,0 +1,7790 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a22d09a6-a283-4758-89f1-66d8ba836360")
+	(paper "User" 729.386 210.007)
+	(lib_symbols
+		(symbol "neopixel_ring_24-eagle-import:C-EUC0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "neopixel_ring_24:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0603_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "neopixel_ring_24-eagle-import:FIDUCIAL{dblquote}{dblquote}"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "neopixel_ring_24:FIDUCIAL_1MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Alignment Points\n\nVarious fiducial points for machine vision alignment."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FIDUCIAL{dblquote}{dblquote}_1_0"
+				(polyline
+					(pts
+						(xy -0.762 0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "neopixel_ring_24-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "neopixel_ring_24-eagle-import:PINHD-1X1CB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 3.175 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "neopixel_ring_24:1X01-CLEANBIG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin header 1x1 for 0.1\" spacing\n\nWith round pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PINHD-1X1CB_1_0"
+				(polyline
+					(pts
+						(xy -6.35 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "neopixel_ring_24-eagle-import:VDD"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#VDD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDD_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "neopixel_ring_24-eagle-import:WS28115050"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "neopixel_ring_24:WS28115050"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WS28115050_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 10.16) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 6.35) (xy -5.08 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -6.35 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -3.81 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 6.35) (xy -3.81 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 8.89) (xy -5.08 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -5.08 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 6.35) (xy 0 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 8.89) (xy -5.08 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 10.16) (xy -7.62 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 10.16) (xy -2.54 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -2.54 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 8.89) (xy -2.54 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 3.81 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 6.35) (xy 2.54 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 8.89) (xy -1.27 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.35) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "WS2811"
+					(at 3.81 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify right top)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "DI"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "DO"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 15.24 270)
+					(length 5.08)
+					(name "LEDVDD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "LEDVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 15.24 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 358.14 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dcedb44-73b3-442d-8c58-075adb20b343")
+	)
+	(junction
+		(at 353.06 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa5512e8-6cad-4b77-b51d-9870065a1a74")
+	)
+	(wire
+		(pts
+			(xy 632.46 144.78) (xy 632.46 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "00495963-e8ad-41ef-b9f4-03a63a8b2624")
+	)
+	(wire
+		(pts
+			(xy 144.78 137.16) (xy 142.24 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "009c137a-982c-418f-bc76-bf944f5b4f10")
+	)
+	(wire
+		(pts
+			(xy 604.52 144.78) (xy 604.52 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "01b86343-f99f-4c8b-8f3d-91941cd0e1eb")
+	)
+	(wire
+		(pts
+			(xy 269.24 147.32) (xy 269.24 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "01ec5dca-3279-4d75-adc5-d0585b83b316")
+	)
+	(wire
+		(pts
+			(xy 43.18 116.84) (xy 43.18 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "02bf619f-f328-4efb-bc0a-a76ec529b211")
+	)
+	(wire
+		(pts
+			(xy 208.28 88.9) (xy 208.28 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0352fa69-da41-4800-8d2c-2aec91eb5d64")
+	)
+	(wire
+		(pts
+			(xy 637.54 116.84) (xy 657.86 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0381081a-8331-4090-9df4-13929b745dcf")
+	)
+	(wire
+		(pts
+			(xy 248.92 88.9) (xy 248.92 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0425734d-5b9d-4907-a869-66d1b8360d1c")
+	)
+	(wire
+		(pts
+			(xy 238.76 116.84) (xy 218.44 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "042ec546-5011-4b84-8a81-f4d1799d1691")
+	)
+	(wire
+		(pts
+			(xy 462.28 119.38) (xy 462.28 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "04cb845f-5610-4bba-9ee9-d80d8af845aa")
+	)
+	(wire
+		(pts
+			(xy 665.48 119.38) (xy 665.48 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "04dde48f-433c-4eae-9727-d072072e18ed")
+	)
+	(wire
+		(pts
+			(xy 350.52 119.38) (xy 350.52 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "077eb8f5-cb7f-4701-bee3-76d91a702364")
+	)
+	(wire
+		(pts
+			(xy 629.92 116.84) (xy 637.54 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "07bf9006-fb53-486b-b746-179996853a6f")
+	)
+	(wire
+		(pts
+			(xy 294.64 119.38) (xy 294.64 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "07c1519b-2f50-4f74-ba35-fa1281388d8a")
+	)
+	(wire
+		(pts
+			(xy 396.24 137.16) (xy 393.7 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "09a25ce6-7011-40b0-92b2-d80434776bc4")
+	)
+	(wire
+		(pts
+			(xy 325.12 147.32) (xy 297.18 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a656d86-57a1-4568-ad9d-cbfeebeea21f")
+	)
+	(wire
+		(pts
+			(xy 302.26 116.84) (xy 294.64 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b99ec44-9f2d-4c44-9a01-678f04d4e097")
+	)
+	(wire
+		(pts
+			(xy 269.24 88.9) (xy 269.24 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "103f09df-3cb5-44af-bc19-86f23555528c")
+	)
+	(wire
+		(pts
+			(xy 241.3 147.32) (xy 241.3 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "106a76ac-8cde-432f-a527-4a84875a1d76")
+	)
+	(wire
+		(pts
+			(xy 302.26 119.38) (xy 302.26 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "11b67c60-0aae-4d79-8a6a-abe3b856feba")
+	)
+	(wire
+		(pts
+			(xy 71.12 116.84) (xy 50.8 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "137b77cd-65aa-4294-b37b-d9aca3f88d6b")
+	)
+	(wire
+		(pts
+			(xy 238.76 78.74) (xy 248.92 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "146536ce-bca8-406f-b804-dd320f32d744")
+	)
+	(wire
+		(pts
+			(xy 66.04 91.44) (xy 55.88 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "14908fe0-e5ea-4f99-a838-5a3bd636aead")
+	)
+	(wire
+		(pts
+			(xy 441.96 116.84) (xy 462.28 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "16954d1a-18b4-4d5b-b352-633e476e9446")
+	)
+	(wire
+		(pts
+			(xy 246.38 119.38) (xy 246.38 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "16bd6ad2-a300-4372-8409-5bcc82eb7f77")
+	)
+	(wire
+		(pts
+			(xy 464.82 147.32) (xy 492.76 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1703c6e9-d066-49bf-8835-1c7275a9c42c")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "18d4743f-1c6a-4c58-a3bc-3d352f8eba1e")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 96.52 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1975f04f-0d2e-4f07-83ae-d3eb616c97dc")
+	)
+	(wire
+		(pts
+			(xy 238.76 119.38) (xy 238.76 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c7763f6-5f44-4a17-a952-fbbd0ee2a4d0")
+	)
+	(wire
+		(pts
+			(xy 604.52 147.32) (xy 632.46 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ca3357a-7af2-4d08-b636-6dfc1eef8ddb")
+	)
+	(wire
+		(pts
+			(xy 187.96 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1d39c42d-741f-472f-b7e8-c2ba29369398")
+	)
+	(wire
+		(pts
+			(xy 25.4 147.32) (xy 45.72 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1d7b6ee3-7637-46b1-b31c-8b4180820387")
+	)
+	(wire
+		(pts
+			(xy 406.4 116.84) (xy 414.02 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ef3692d-86c6-45a0-8b82-c1c2e0b1e871")
+	)
+	(wire
+		(pts
+			(xy 157.48 147.32) (xy 157.48 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f93826f-452f-4be7-b1d7-25659cd8af69")
+	)
+	(wire
+		(pts
+			(xy 525.78 119.38) (xy 525.78 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2067d1f0-35ec-41a5-8164-d75e10bd4e7a")
+	)
+	(wire
+		(pts
+			(xy 60.96 137.16) (xy 58.42 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "20df96b4-9938-43cb-9b3e-f6e53ea759f8")
+	)
+	(wire
+		(pts
+			(xy 441.96 119.38) (xy 441.96 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "20e31f32-1bd2-4f6f-b5af-acdcd368c44e")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "22273517-5d58-4985-bd66-76d01917ba11")
+	)
+	(wire
+		(pts
+			(xy 185.42 147.32) (xy 157.48 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2240e9a1-9112-4f2e-80e9-2807e0a30402")
+	)
+	(wire
+		(pts
+			(xy 353.06 147.32) (xy 381 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "228388eb-ad58-40ef-affc-88b95eba3809")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "234a6587-60b3-4de0-9d5c-034290bbb49b")
+	)
+	(wire
+		(pts
+			(xy 45.72 81.28) (xy 45.72 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "246abfa1-a221-4743-8ced-01cbc9cb4f2b")
+	)
+	(wire
+		(pts
+			(xy 358.14 116.84) (xy 350.52 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "252ea6b5-ca71-4c71-b25c-2872334f02af")
+	)
+	(wire
+		(pts
+			(xy 86.36 81.28) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "25a06528-eb02-41b6-a11a-2679a8c310d5")
+	)
+	(wire
+		(pts
+			(xy 45.72 88.9) (xy 45.72 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "25c82b39-b6d1-4484-8673-9502ba884ff8")
+	)
+	(wire
+		(pts
+			(xy 601.98 119.38) (xy 601.98 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "25efa20a-f23e-4a9e-9586-3cd8bf36b33c")
+	)
+	(wire
+		(pts
+			(xy 218.44 116.84) (xy 210.82 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "26ebbcbf-c464-4098-8897-fac7aa002fa5")
+	)
+	(wire
+		(pts
+			(xy 66.04 78.74) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "27b5ce8c-2b8a-4eb5-8a18-e98d3abe5d2f")
+	)
+	(wire
+		(pts
+			(xy 154.94 116.84) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "27bae62e-5d47-4d67-9d9a-efdfe2dfa653")
+	)
+	(wire
+		(pts
+			(xy 78.74 116.84) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "29d835c3-af91-4333-bf5f-ac4e7094be20")
+	)
+	(wire
+		(pts
+			(xy 520.7 147.32) (xy 548.64 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2a859cad-622f-463c-8ef0-8518974b1ae2")
+	)
+	(wire
+		(pts
+			(xy 365.76 137.16) (xy 368.3 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2b189359-2f85-4625-a12f-d37a11a3ca8d")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 66.04 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2dc21671-0bf8-4989-b6fb-fac2e08ef76d")
+	)
+	(wire
+		(pts
+			(xy 226.06 137.16) (xy 228.6 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2e47294d-86a7-43db-8915-46ce07ff3314")
+	)
+	(wire
+		(pts
+			(xy 581.66 116.84) (xy 601.98 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2e6bf443-5b60-4e97-bbc0-ac1b4c846361")
+	)
+	(wire
+		(pts
+			(xy 358.14 119.38) (xy 358.14 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2f01528b-10e6-47f5-9627-30145cb99e69")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "30f6856a-561b-4f21-a2b7-6ee206c171b3")
+	)
+	(wire
+		(pts
+			(xy 259.08 78.74) (xy 269.24 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3553ffe4-1a07-460d-9550-d7f2ad814ffd")
+	)
+	(wire
+		(pts
+			(xy 632.46 147.32) (xy 660.4 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "35be7e61-e2d3-45a8-acc6-e9cda222526d")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "375941fb-ef07-43e2-bfee-133b4970eab8")
+	)
+	(wire
+		(pts
+			(xy 228.6 81.28) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "377a4dbd-c363-406c-b26b-a77ab8e7a076")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 127 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "39de62a1-6db1-4735-8df2-79b34c08a2b4")
+	)
+	(wire
+		(pts
+			(xy 266.7 119.38) (xy 266.7 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3af98424-24c9-4ff2-a252-9f82aa635daa")
+	)
+	(wire
+		(pts
+			(xy 208.28 81.28) (xy 208.28 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3b8f08a9-a9bb-4211-89d7-631865b38e42")
+	)
+	(wire
+		(pts
+			(xy 629.92 119.38) (xy 629.92 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3d7d8892-d675-47cd-8292-fecef09c8cc3")
+	)
+	(wire
+		(pts
+			(xy 187.96 81.28) (xy 187.96 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3e042998-c6a7-4d02-978f-5d713773f34e")
+	)
+	(wire
+		(pts
+			(xy 134.62 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "43247715-9ae4-4f17-a2a6-2c90e1078809")
+	)
+	(wire
+		(pts
+			(xy 330.2 119.38) (xy 330.2 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "43af9728-2869-40c8-9c74-87a1be4af3bc")
+	)
+	(wire
+		(pts
+			(xy 177.8 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "442b7435-e170-47c4-89d7-1dba3fdc9876")
+	)
+	(wire
+		(pts
+			(xy 55.88 81.28) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "44b92adc-ed04-4701-be7c-1207b5d4bd21")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "45656df7-252d-4537-8947-0520207c3399")
+	)
+	(wire
+		(pts
+			(xy 325.12 147.32) (xy 325.12 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "45b0883a-7354-44df-bd78-6d4b16b78d21")
+	)
+	(wire
+		(pts
+			(xy 66.04 91.44) (xy 66.04 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "461cefa5-9faa-4903-8e94-18ddb88a21b9")
+	)
+	(wire
+		(pts
+			(xy 269.24 147.32) (xy 241.3 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4948e17e-ce67-4988-b7a5-d7826bf76d9a")
+	)
+	(wire
+		(pts
+			(xy 266.7 116.84) (xy 246.38 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4989b0de-6e5c-43d6-98ca-b9a21e1bfc37")
+	)
+	(wire
+		(pts
+			(xy 297.18 147.32) (xy 297.18 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "49f444d9-efee-4689-8e58-8262765ae327")
+	)
+	(wire
+		(pts
+			(xy 259.08 81.28) (xy 259.08 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4a4a58ce-fa7a-41e7-b1fe-4fc910267876")
+	)
+	(wire
+		(pts
+			(xy 297.18 147.32) (xy 269.24 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4b4697b7-533a-4a3d-b4fd-16f0d4253713")
+	)
+	(wire
+		(pts
+			(xy 99.06 119.38) (xy 99.06 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4c79efd9-4977-4165-9bf1-04258f6de0f3")
+	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4cba39c4-19c1-4cc4-be6a-fb3cb317c49b")
+	)
+	(wire
+		(pts
+			(xy 172.72 137.16) (xy 170.18 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4e54f2d0-213a-456b-a848-19207ddddb5c")
+	)
+	(wire
+		(pts
+			(xy 660.4 144.78) (xy 660.4 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "54624bc0-b368-4cbe-9615-c254f5d34078")
+	)
+	(wire
+		(pts
+			(xy 497.84 116.84) (xy 518.16 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "55af57ed-f69a-4375-963e-7ab5ecea0d24")
+	)
+	(wire
+		(pts
+			(xy 408.94 147.32) (xy 436.88 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "571b2ba6-caed-4c28-a874-8771be58f1fc")
+	)
+	(wire
+		(pts
+			(xy 86.36 88.9) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "57b46c1b-d0d3-4b04-be31-c674a79c838a")
+	)
+	(wire
+		(pts
+			(xy 548.64 147.32) (xy 576.58 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58c0f084-732f-4766-93e4-fc9a254b11b3")
+	)
+	(wire
+		(pts
+			(xy 210.82 116.84) (xy 190.5 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "598b9732-d6a3-4eb5-a4f1-350b15c4d99c")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a0f31d8-217b-4f1f-90a1-780972b47708")
+	)
+	(wire
+		(pts
+			(xy 218.44 119.38) (xy 218.44 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a0fe074-6a94-4a1e-8086-41299432f546")
+	)
+	(wire
+		(pts
+			(xy 106.68 88.9) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5aafb151-34c4-4aae-bbe9-bf5074c7128e")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5b2cd83c-1ce9-48bb-be82-4297aceb8528")
+	)
+	(wire
+		(pts
+			(xy 248.92 91.44) (xy 238.76 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5c10bb41-d5e2-4bc3-a5ed-073444541833")
+	)
+	(wire
+		(pts
+			(xy 693.42 116.84) (xy 693.42 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e6d6d18-7791-4b2d-8333-d35fca7c9029")
+	)
+	(wire
+		(pts
+			(xy 269.24 81.28) (xy 269.24 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e859114-ff99-4b99-bde9-8a10530d88b3")
+	)
+	(wire
+		(pts
+			(xy 259.08 91.44) (xy 248.92 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f1f48c1-08f8-44e0-87a1-5df9c9a23b90")
+	)
+	(wire
+		(pts
+			(xy 147.32 88.9) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "60c6bc70-9cfd-4dd9-8644-2e8d3bac7dc8")
+	)
+	(wire
+		(pts
+			(xy 190.5 116.84) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "614727fa-28c9-4c5c-979c-7e767f0b82bb")
+	)
+	(wire
+		(pts
+			(xy 162.56 119.38) (xy 162.56 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6197e629-b0ee-495d-a789-babd84ed5717")
+	)
+	(wire
+		(pts
+			(xy 157.48 147.32) (xy 129.54 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "61df4e0a-d5b7-4083-8ed0-efae43ef9124")
+	)
+	(wire
+		(pts
+			(xy 101.6 147.32) (xy 73.66 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6288e92e-c952-419b-8205-cb47e77e724b")
+	)
+	(wire
+		(pts
+			(xy 469.9 119.38) (xy 469.9 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "630d0d76-993f-4ff7-a494-8f5d87682673")
+	)
+	(wire
+		(pts
+			(xy 134.62 119.38) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6344e8fe-a70b-4afe-8811-c311203199e8")
+	)
+	(wire
+		(pts
+			(xy 274.32 116.84) (xy 266.7 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "63c80158-5a1d-48d2-a4b0-7534251a3808")
+	)
+	(wire
+		(pts
+			(xy 86.36 91.44) (xy 76.2 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "65004a27-d159-4053-9166-a3c7452c0808")
+	)
+	(wire
+		(pts
+			(xy 190.5 119.38) (xy 190.5 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "651e0609-c97d-47fb-b3bf-ec1361f59ec9")
+	)
+	(wire
+		(pts
+			(xy 353.06 147.32) (xy 353.06 149.86)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "666e3cf7-40c3-4ba5-b69e-26059b45fdcf")
+	)
+	(wire
+		(pts
+			(xy 353.06 144.78) (xy 353.06 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "670be840-d2c4-4ce0-aa0f-1646bf9e1bcc")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "676f9a5d-876b-4b81-99b9-e217d475c9bf")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "68f88643-ecd5-479f-9a20-4dd4eb6470d7")
+	)
+	(wire
+		(pts
+			(xy 106.68 91.44) (xy 96.52 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b94e442-9983-4fc7-ba79-4f059134abaf")
+	)
+	(wire
+		(pts
+			(xy 381 147.32) (xy 408.94 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6bf91703-fea4-449d-b7ca-3ecc8e8543c2")
+	)
+	(wire
+		(pts
+			(xy 198.12 78.74) (xy 208.28 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6c379b39-f396-4fd9-aaf2-a0560875bf4b")
+	)
+	(wire
+		(pts
+			(xy 127 119.38) (xy 127 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6c79da98-1c7c-4676-887c-96f8ac49fc6a")
+	)
+	(wire
+		(pts
+			(xy 386.08 119.38) (xy 386.08 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ef3d214-5cbd-4433-b2dc-9fd78f62a3d9")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "70395edb-2bac-4dd9-9658-2a81252d0429")
+	)
+	(wire
+		(pts
+			(xy 660.4 147.32) (xy 688.34 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "704c0a8a-505d-4ebc-9fd2-c0e5364957d1")
+	)
+	(wire
+		(pts
+			(xy 228.6 91.44) (xy 218.44 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "713d8b7b-53dc-43c6-a984-026bf1d1087e")
+	)
+	(wire
+		(pts
+			(xy 436.88 147.32) (xy 464.82 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "71696700-bbe1-43cb-93d8-877e622699ac")
+	)
+	(wire
+		(pts
+			(xy 688.34 147.32) (xy 688.34 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "717a811c-f8bc-4bff-a3fb-a9f3699a5091")
+	)
+	(wire
+		(pts
+			(xy 116.84 137.16) (xy 114.3 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7180e95b-1779-4f09-8e6a-0e6b6939a605")
+	)
+	(wire
+		(pts
+			(xy 561.34 137.16) (xy 563.88 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "734a33f3-4bbb-4a81-88ba-c9eb5278b4cc")
+	)
+	(wire
+		(pts
+			(xy 589.28 137.16) (xy 591.82 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "740cc9d4-d00f-457d-a81b-d790974cb17f")
+	)
+	(wire
+		(pts
+			(xy 96.52 81.28) (xy 96.52 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "745979ad-72d7-46ed-9129-57e123fdcd80")
+	)
+	(wire
+		(pts
+			(xy 208.28 78.74) (xy 218.44 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "75cbf2ce-d44f-4a28-898f-8e83dc496325")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "77d43aa9-a63a-417c-93e5-4eb52c119ddd")
+	)
+	(wire
+		(pts
+			(xy 490.22 116.84) (xy 497.84 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7876293d-bc48-474c-a332-8b19da780868")
+	)
+	(wire
+		(pts
+			(xy 657.86 116.84) (xy 665.48 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "79d1855a-16f7-4bc7-a703-f30f8675ef7e")
+	)
+	(wire
+		(pts
+			(xy 525.78 116.84) (xy 546.1 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b7a947f-2b61-49ee-8869-8821ee5e138e")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7ccb73a9-69e3-4867-8867-b352ec5faeea")
+	)
+	(wire
+		(pts
+			(xy 574.04 119.38) (xy 574.04 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7f773b00-427f-4be5-afa0-9b3200cf52fb")
+	)
+	(wire
+		(pts
+			(xy 434.34 116.84) (xy 441.96 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7fe01c00-35c2-4af8-86fc-fcfda998ab64")
+	)
+	(wire
+		(pts
+			(xy 127 91.44) (xy 127 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "81842c19-660d-4092-9c15-aee5a6a0f168")
+	)
+	(wire
+		(pts
+			(xy 71.12 119.38) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "842c8b69-860f-41bd-a7c7-0e24d53cbd10")
+	)
+	(wire
+		(pts
+			(xy 208.28 91.44) (xy 198.12 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "85266723-eb25-4701-af02-942109f44eed")
+	)
+	(wire
+		(pts
+			(xy 274.32 119.38) (xy 274.32 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "85e67b0f-1ae5-48e8-9f96-8c35756d35e2")
+	)
+	(wire
+		(pts
+			(xy 73.66 147.32) (xy 73.66 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "86d0a4ab-56b1-404a-8cfb-29c4c809e112")
+	)
+	(wire
+		(pts
+			(xy 322.58 119.38) (xy 322.58 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "86e3f08f-1902-4f63-86e7-b5b4dbbd3070")
+	)
+	(wire
+		(pts
+			(xy 228.6 78.74) (xy 238.76 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "875425a3-ac48-40f8-b85a-823e7048203c")
+	)
+	(wire
+		(pts
+			(xy 546.1 119.38) (xy 546.1 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "87eea468-5d38-400d-855f-e6b6f7f6b4cd")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "89fb3399-445e-4a72-a5e3-6c3856c32b3f")
+	)
+	(wire
+		(pts
+			(xy 322.58 116.84) (xy 302.26 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a068622-c5ee-4947-9601-c8e68a5e6252")
+	)
+	(wire
+		(pts
+			(xy 406.4 119.38) (xy 406.4 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c474f39-1ad2-4c62-bcc7-082463fba68f")
+	)
+	(wire
+		(pts
+			(xy 248.92 81.28) (xy 248.92 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8dc4f374-2b78-4c32-a33a-86b1061dd20c")
+	)
+	(wire
+		(pts
+			(xy 198.12 81.28) (xy 198.12 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8e000404-92b4-4b5c-be9f-cefde000da1c")
+	)
+	(wire
+		(pts
+			(xy 464.82 144.78) (xy 464.82 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8f05291c-4937-4df1-9bd6-1efe4682106f")
+	)
+	(wire
+		(pts
+			(xy 685.8 116.84) (xy 693.42 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "93d713c7-e1ed-450b-91f0-a7a55682e004")
+	)
+	(wire
+		(pts
+			(xy 378.46 116.84) (xy 386.08 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "94a98bfb-2cea-4941-9329-ed87d7c0ccc2")
+	)
+	(wire
+		(pts
+			(xy 436.88 144.78) (xy 436.88 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "955cd50d-5c9a-4bc9-a0ed-f752446a8ed6")
+	)
+	(wire
+		(pts
+			(xy 157.48 88.9) (xy 157.48 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "973310e2-4fab-42fe-935a-ec4fc61e3330")
+	)
+	(wire
+		(pts
+			(xy 424.18 137.16) (xy 421.64 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9964b671-4031-4f38-9444-7140b95fbf11")
+	)
+	(wire
+		(pts
+			(xy 469.9 116.84) (xy 490.22 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9972942c-77d8-492e-b613-9b5e57e2a2b9")
+	)
+	(wire
+		(pts
+			(xy 106.68 81.28) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "99ed4d56-eb27-4e85-aa60-9edc9f88cbe4")
+	)
+	(wire
+		(pts
+			(xy 269.24 91.44) (xy 259.08 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9a3a9641-5eaa-4dcd-b936-0e60e99c378d")
+	)
+	(wire
+		(pts
+			(xy 218.44 81.28) (xy 218.44 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9b153879-28f6-41e6-a67b-5815cf355215")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 157.48 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9da49c5b-d7cd-437a-a937-261a5251680b")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9fa218c2-d08f-48dd-8957-2978a96de7b1")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a053d7d1-b669-4190-b8d3-b005fd787a00")
+	)
+	(wire
+		(pts
+			(xy 462.28 116.84) (xy 469.9 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a05e5f2e-5abe-4bd3-bc7c-ea8ded9ae8bd")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 106.68 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a0bf5031-6084-4a3f-81f5-5bd9d60825fb")
+	)
+	(wire
+		(pts
+			(xy 88.9 137.16) (xy 86.36 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a0d7e0f2-4c9a-4c68-988b-1b2832899561")
+	)
+	(wire
+		(pts
+			(xy 279.4 91.44) (xy 269.24 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a2771270-aa9e-4900-aa3c-5970e7355468")
+	)
+	(wire
+		(pts
+			(xy 198.12 91.44) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a3af0299-f56c-43df-8bff-faffcfaf75c6")
+	)
+	(wire
+		(pts
+			(xy 581.66 119.38) (xy 581.66 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a3c4f359-ce7d-49a2-beee-0efbf6cc3f11")
+	)
+	(wire
+		(pts
+			(xy 330.2 116.84) (xy 322.58 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a3e82137-9a0f-46ed-a118-ab2d0cd67155")
+	)
+	(wire
+		(pts
+			(xy 281.94 137.16) (xy 284.48 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a55ccf17-d828-4ef7-9816-1b2b6720f076")
+	)
+	(wire
+		(pts
+			(xy 492.76 147.32) (xy 520.7 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a73b653b-bfc0-4be2-8ec9-2f9ae8db686e")
+	)
+	(wire
+		(pts
+			(xy 497.84 119.38) (xy 497.84 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a7fe1337-d9c7-4797-9d96-5d30426fba89")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a9359d7c-292e-4e07-8b32-e0b240bdadcc")
+	)
+	(wire
+		(pts
+			(xy 218.44 88.9) (xy 218.44 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab2dfe90-d75d-487f-98f6-3dbb0cb2c511")
+	)
+	(wire
+		(pts
+			(xy 241.3 147.32) (xy 213.36 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "abb90380-f107-44a3-9741-c4870a085dc6")
+	)
+	(wire
+		(pts
+			(xy 73.66 147.32) (xy 45.72 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ac5b0820-a249-477d-b2ea-c6e36ea36c77")
+	)
+	(wire
+		(pts
+			(xy 518.16 119.38) (xy 518.16 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "acdce9ab-2d6d-4beb-925f-3830f6b4a3ac")
+	)
+	(wire
+		(pts
+			(xy 414.02 116.84) (xy 434.34 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ada739fb-397e-412a-ad4e-8fe136a5f95a")
+	)
+	(wire
+		(pts
+			(xy 86.36 78.74) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af0ba034-72b0-4a25-b0a1-51ca39425a75")
+	)
+	(wire
+		(pts
+			(xy 657.86 119.38) (xy 657.86 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af45381f-195e-461c-a3ec-ca0a379fec91")
+	)
+	(wire
+		(pts
+			(xy 609.6 116.84) (xy 629.92 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "afa81896-c5b5-46a7-8385-cb1fcf7c9948")
+	)
+	(wire
+		(pts
+			(xy 414.02 119.38) (xy 414.02 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "affd025e-b4e8-4ae5-a17b-5722bc3dd133")
+	)
+	(wire
+		(pts
+			(xy 480.06 137.16) (xy 477.52 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b21dfc75-b6a2-4621-b5cc-0e6d173af600")
+	)
+	(wire
+		(pts
+			(xy 50.8 116.84) (xy 43.18 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b2b91fb7-ac47-401d-861b-c69bcd3e5a50")
+	)
+	(wire
+		(pts
+			(xy 167.64 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b35f3967-3b34-4252-9383-10355a874f08")
+	)
+	(wire
+		(pts
+			(xy 127 81.28) (xy 127 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b3a1f16b-33c2-4d21-a61a-69bd07ef6ca1")
+	)
+	(wire
+		(pts
+			(xy 452.12 137.16) (xy 449.58 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b427838d-c77b-4ac3-b354-a138bb6c5dc8")
+	)
+	(wire
+		(pts
+			(xy 553.72 116.84) (xy 574.04 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b599f6ea-eb10-4f6d-8525-f873889a263b")
+	)
+	(wire
+		(pts
+			(xy 434.34 119.38) (xy 434.34 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b5b25295-be82-4c1f-b9cc-39a32bb7ced7")
+	)
+	(wire
+		(pts
+			(xy 45.72 78.74) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b68e7436-6401-4aea-aea7-f3727291b19e")
+	)
+	(wire
+		(pts
+			(xy 353.06 147.32) (xy 325.12 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b74dfa90-ebaf-42e3-8048-a3b9d3ce28f3")
+	)
+	(wire
+		(pts
+			(xy 55.88 91.44) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b7760513-d18d-4b6b-962c-a11665993bc1")
+	)
+	(wire
+		(pts
+			(xy 279.4 78.74) (xy 279.4 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b9124091-f6da-4752-b96e-524e46374565")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 198.12 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b922e26e-f530-4826-9766-d36395510095")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28) (xy 167.64 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b97c5272-ac6e-435a-b8a7-92de88357821")
+	)
+	(wire
+		(pts
+			(xy 576.58 144.78) (xy 576.58 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ba330b9e-293d-4694-8ba4-5b393170604f")
+	)
+	(wire
+		(pts
+			(xy 96.52 78.74) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bb02fe9b-5ee4-4ed4-ad41-4f0a79c06125")
+	)
+	(wire
+		(pts
+			(xy 213.36 147.32) (xy 185.42 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bb5e2233-3967-4a31-8f90-744e7fb73924")
+	)
+	(wire
+		(pts
+			(xy 337.82 137.16) (xy 340.36 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bc18daff-fe10-4713-92aa-dac744170640")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c0c04b8d-112b-4222-885c-39323942fa85")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c1b88c3f-bcb8-45ef-8fab-8e5d316f1899")
+	)
+	(wire
+		(pts
+			(xy 187.96 78.74) (xy 198.12 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c1bdd2e2-fb2e-4d9c-8d5d-ecafecca4f2f")
+	)
+	(wire
+		(pts
+			(xy 106.68 78.74) (xy 96.52 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c23234e8-c1a6-4556-bab4-29fbc555d7c2")
+	)
+	(wire
+		(pts
+			(xy 408.94 144.78) (xy 408.94 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c25d9a4d-abb8-4fd2-b84c-18ffa09369c1")
+	)
+	(wire
+		(pts
+			(xy 601.98 116.84) (xy 609.6 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c2954aaf-9752-420a-a8a2-c683acdd0c8b")
+	)
+	(wire
+		(pts
+			(xy 378.46 119.38) (xy 378.46 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c2fc68ed-b722-4d37-83af-f5ae6c3e0864")
+	)
+	(wire
+		(pts
+			(xy 162.56 116.84) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c40b7111-44ce-40ba-8eab-787cf8c1d164")
+	)
+	(wire
+		(pts
+			(xy 185.42 147.32) (xy 185.42 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c43bf7b9-8a23-4afa-8f20-5c1246af0e7e")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 66.04 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c5279065-fd9c-4caf-b269-e3e69ae9d043")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84) (xy 238.76 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c690beb9-4539-413b-a0af-7e774474d557")
+	)
+	(wire
+		(pts
+			(xy 45.72 91.44) (xy 55.88 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c6fa9b13-3f08-4658-8fc3-3d885962ed57")
+	)
+	(wire
+		(pts
+			(xy 129.54 147.32) (xy 101.6 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c83bc290-fcd9-4bc4-9650-05bad7c56671")
+	)
+	(wire
+		(pts
+			(xy 238.76 81.28) (xy 238.76 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c8bd090a-9bb3-4457-b53b-27fbe7388ef1")
+	)
+	(wire
+		(pts
+			(xy 154.94 119.38) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb93f86d-815d-47aa-9f92-5305800c6036")
+	)
+	(wire
+		(pts
+			(xy 279.4 88.9) (xy 279.4 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc5eaf9e-6d42-4ffe-a076-15c32c90ae56")
+	)
+	(wire
+		(pts
+			(xy 576.58 147.32) (xy 604.52 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc666763-3d9c-43ab-90ff-6e86f780ef25")
+	)
+	(wire
+		(pts
+			(xy 665.48 116.84) (xy 685.8 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cca9afd5-ff64-4b99-be69-0c15e721cf70")
+	)
+	(wire
+		(pts
+			(xy 25.4 137.16) (xy 33.02 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cce63644-4ead-4196-af1e-2ebc38d97750")
+	)
+	(wire
+		(pts
+			(xy 617.22 137.16) (xy 619.76 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cd4a9bfd-5fc4-48db-8143-5bcf2f645fad")
+	)
+	(wire
+		(pts
+			(xy 106.68 119.38) (xy 106.68 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cde083e8-b4ce-4e22-8b7a-e523c30c890d")
+	)
+	(wire
+		(pts
+			(xy 259.08 88.9) (xy 259.08 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ce599b85-e316-40fd-a9c0-80f21b1e7525")
+	)
+	(wire
+		(pts
+			(xy 358.14 116.84) (xy 358.14 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf475e99-78db-4e74-9dab-f8ccf3449fff")
+	)
+	(wire
+		(pts
+			(xy 609.6 119.38) (xy 609.6 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d0904bb3-eb6e-440d-9752-c05073ed8dc0")
+	)
+	(wire
+		(pts
+			(xy 129.54 147.32) (xy 129.54 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d09a349e-7ab6-4ec6-a06b-6de4704ec44a")
+	)
+	(wire
+		(pts
+			(xy 218.44 78.74) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d2dbccc8-ffd5-414c-a428-227aeb747238")
+	)
+	(wire
+		(pts
+			(xy 99.06 116.84) (xy 78.74 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d469c77e-98fa-4cd5-9afa-266aec5916dd")
+	)
+	(wire
+		(pts
+			(xy 294.64 116.84) (xy 274.32 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d56a0e8b-2ad5-48bf-ba61-c2f8955772c4")
+	)
+	(wire
+		(pts
+			(xy 248.92 78.74) (xy 259.08 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d58be4d0-eb13-44a9-97fb-3a033dd06e61")
+	)
+	(wire
+		(pts
+			(xy 645.16 137.16) (xy 647.7 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5c5cfae-f5cc-4681-a186-1e579745dbc8")
+	)
+	(wire
+		(pts
+			(xy 50.8 119.38) (xy 50.8 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5d3843b-a6e1-4112-823a-6ea02de9f6a6")
+	)
+	(wire
+		(pts
+			(xy 518.16 116.84) (xy 525.78 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d633948e-4f1c-4992-8cce-23b97d77b107")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d6fdac8f-0daa-42ee-bb85-8f347fc1f3ef")
+	)
+	(wire
+		(pts
+			(xy 238.76 91.44) (xy 228.6 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d90075d3-9f5b-4286-9ec0-ec57956ea518")
+	)
+	(wire
+		(pts
+			(xy 350.52 116.84) (xy 330.2 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dba3c2d2-33df-42e5-8b6a-0f3342410ca5")
+	)
+	(wire
+		(pts
+			(xy 25.4 116.84) (xy 43.18 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dc729e9f-bccf-4d15-880d-1bfefd08c1bc")
+	)
+	(wire
+		(pts
+			(xy 553.72 119.38) (xy 553.72 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de43cfed-b1a9-4cdb-a759-db53c193c3c1")
+	)
+	(wire
+		(pts
+			(xy 101.6 147.32) (xy 101.6 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de5cd98e-4646-4de6-bbfa-4b0a3149e019")
+	)
+	(wire
+		(pts
+			(xy 106.68 116.84) (xy 99.06 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de709ab0-bece-4694-830e-0eeed6d6245d")
+	)
+	(wire
+		(pts
+			(xy 228.6 88.9) (xy 228.6 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de8cd268-d1c3-4020-b6b0-b75a27cad7fc")
+	)
+	(wire
+		(pts
+			(xy 520.7 144.78) (xy 520.7 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de9b641d-e1ef-4aa8-bc36-a16103e57bfc")
+	)
+	(wire
+		(pts
+			(xy 254 137.16) (xy 256.54 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e0e001ed-1ce6-4596-b586-a73de0fa9173")
+	)
+	(wire
+		(pts
+			(xy 492.76 144.78) (xy 492.76 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e4dd551c-4388-4a04-9362-f9d8cfbb519b")
+	)
+	(wire
+		(pts
+			(xy 574.04 116.84) (xy 581.66 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e5af059f-856a-4d65-b650-ea5d9cc4f715")
+	)
+	(wire
+		(pts
+			(xy 386.08 116.84) (xy 406.4 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e70704e7-fab1-4fd4-a4b5-d50f458884bf")
+	)
+	(wire
+		(pts
+			(xy 177.8 78.74) (xy 187.96 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e8186039-db65-4ae5-b40f-aa7a27993699")
+	)
+	(wire
+		(pts
+			(xy 490.22 119.38) (xy 490.22 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea8e54d8-4738-4565-abe0-236978271deb")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "edda8537-1b8e-4183-8ddb-22c81c67ba73")
+	)
+	(wire
+		(pts
+			(xy 548.64 144.78) (xy 548.64 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "edfbf404-3c48-41f8-8084-93e8b170a70a")
+	)
+	(wire
+		(pts
+			(xy 182.88 119.38) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0084ff1-0272-4c96-8d7b-398c9d967759")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0c3b243-5798-457a-b4a3-69f995a3c135")
+	)
+	(wire
+		(pts
+			(xy 701.04 137.16) (xy 708.66 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f1a3d581-22b1-4c74-971c-b10c68d8f375")
+	)
+	(wire
+		(pts
+			(xy 535.94 137.16) (xy 533.4 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f1e89939-629b-46b5-96e2-53d5638b709d")
+	)
+	(wire
+		(pts
+			(xy 116.84 78.74) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f24faad2-c9a2-45af-aafc-08db5554f03c")
+	)
+	(wire
+		(pts
+			(xy 238.76 88.9) (xy 238.76 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f30c6d49-79d5-4b15-90bf-216514b77c71")
+	)
+	(wire
+		(pts
+			(xy 182.88 116.84) (xy 162.56 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f3942d24-e91a-4ee2-9146-d460030a0abd")
+	)
+	(wire
+		(pts
+			(xy 309.88 137.16) (xy 312.42 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f3f74ea6-8637-4246-8d25-34406aca92ec")
+	)
+	(wire
+		(pts
+			(xy 546.1 116.84) (xy 553.72 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f47b1907-3d11-4fe2-8756-51204c1ce590")
+	)
+	(wire
+		(pts
+			(xy 358.14 116.84) (xy 378.46 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f53687e9-5e60-4d9e-ad94-c6a7cb63f57a")
+	)
+	(wire
+		(pts
+			(xy 78.74 119.38) (xy 78.74 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f54b0409-8150-4e84-a141-d040c496c7d8")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 66.04 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f55d77c3-e8dd-48fe-ab45-38785a723803")
+	)
+	(wire
+		(pts
+			(xy 673.1 137.16) (xy 675.64 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f56d05a6-a002-4b10-9cd9-4a577ce763f2")
+	)
+	(wire
+		(pts
+			(xy 508 137.16) (xy 505.46 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f6cc27cb-36e2-4039-a3aa-a6669b997bb0")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f858efa4-d36c-4f6d-8289-0472450955ab")
+	)
+	(wire
+		(pts
+			(xy 218.44 91.44) (xy 208.28 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f9877dc6-4fba-438e-a393-61eda840c6ec")
+	)
+	(wire
+		(pts
+			(xy 213.36 147.32) (xy 213.36 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fae32b91-aa42-4566-bc88-19dede9cf2d4")
+	)
+	(wire
+		(pts
+			(xy 685.8 119.38) (xy 685.8 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fb79b512-bd00-4774-b5fe-10a926355aff")
+	)
+	(wire
+		(pts
+			(xy 381 144.78) (xy 381 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fc17d090-a2e6-4601-8b88-04c0c2214c57")
+	)
+	(wire
+		(pts
+			(xy 45.72 147.32) (xy 45.72 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fccf8856-2b83-45d0-97a5-0bd3ba34db8d")
+	)
+	(wire
+		(pts
+			(xy 200.66 137.16) (xy 198.12 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd0482b3-d927-4589-9b7e-0333eafae472")
+	)
+	(wire
+		(pts
+			(xy 269.24 78.74) (xy 279.4 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd8ed14a-97d4-4a62-93e6-5920bebebc82")
+	)
+	(wire
+		(pts
+			(xy 210.82 119.38) (xy 210.82 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff063af1-d459-4163-a3cd-a7ee79f8fe96")
+	)
+	(wire
+		(pts
+			(xy 637.54 119.38) (xy 637.54 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ffc6357e-3a21-4e17-a242-4107a0e3a780")
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 408.94 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dc796ac-0d8f-4e1b-84c8-517ecd10c7c4")
+		(property "Reference" "LED14"
+			(at 408.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 408.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 408.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 408.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 408.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "27bd6a34-3798-4023-ae3e-6d50b4a1ca81")
+		)
+		(pin "DO"
+			(uuid "c6162ca4-8a94-4ab4-ba1e-6a423f00d33f")
+		)
+		(pin "LEDVDD"
+			(uuid "79281017-0e66-4b64-a9cd-559cff95e2b3")
+		)
+		(pin "VDD"
+			(uuid "658899e0-69f5-45d0-be40-9e062489240a")
+		)
+		(pin "VSS"
+			(uuid "40a5ddad-8dfb-4d47-b819-35bca185307f")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 213.36 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dcd81c8-f013-4192-878c-37ad0fcac11c")
+		(property "Reference" "LED7"
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "95ad1e21-10b9-494d-9018-744392a152b8")
+		)
+		(pin "DO"
+			(uuid "70327646-4271-44f6-a29d-57f13e347448")
+		)
+		(pin "LEDVDD"
+			(uuid "ff7a165d-dab0-42a7-835d-fd5e93af69e8")
+		)
+		(pin "VDD"
+			(uuid "eea75e28-1df1-44d9-bb91-0fa171f0e1bc")
+		)
+		(pin "VSS"
+			(uuid "62177ad9-ad12-46b0-906d-2df1d0a58434")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 187.96 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "220f7775-d497-404a-b525-a2d641e9009a")
+		(property "Reference" "C14"
+			(at 189.484 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 189.484 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 187.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c231246b-db69-4ec4-81a7-d672bb30e753")
+		)
+		(pin "2"
+			(uuid "0a9ade2e-0b0d-4296-a966-866d1a520ec1")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 238.76 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25c84235-b99d-4e0d-afe1-fa71d0bc78aa")
+		(property "Reference" "C17"
+			(at 240.284 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 240.284 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0915c457-d0e5-4920-8cff-10f1ff92a17a")
+		)
+		(pin "2"
+			(uuid "ef13b186-de82-4bf4-90cd-08d047b9b9cd")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:FIDUCIAL{dblquote}{dblquote}")
+		(at 190.5 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e2cb174-d5b6-4fd2-976a-58fb43a2be83")
+		(property "Reference" "FID2"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FIDUCIAL{dblquote}{dblquote}"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:FIDUCIAL_1MM"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 157.48 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e43716-7618-468d-95a3-39b957636059")
+		(property "Reference" "C12"
+			(at 159.004 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 159.004 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e4444d-0c8f-47eb-9cba-4fab854f50c1")
+		)
+		(pin "2"
+			(uuid "026a8efb-220d-4bdf-a85f-40206b20cf6e")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:PINHD-1X1CB")
+		(at 22.86 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41143117-cb5d-44bd-ab4c-0965a66b6b0a")
+		(property "Reference" "JP3"
+			(at 29.21 120.015 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PINHD-1X1CB"
+			(at 29.21 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:1X01-CLEANBIG"
+			(at 22.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2dc4bb1-fccf-49c0-9df6-3dc7a6dfb13a")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 492.76 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f432be9-6afd-4ce4-b0bb-84e5f62b5e93")
+		(property "Reference" "LED17"
+			(at 492.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 492.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 492.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 492.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 492.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "7e833cc9-0363-4caa-93d2-250b57715544")
+		)
+		(pin "DO"
+			(uuid "f156f56d-adb5-4368-8950-64110b94784c")
+		)
+		(pin "LEDVDD"
+			(uuid "9c561340-688e-4ad1-84e1-7fa871954396")
+		)
+		(pin "VDD"
+			(uuid "6d0404a7-fc6d-485a-bb24-ca497b050d96")
+		)
+		(pin "VSS"
+			(uuid "238ce693-d3dd-4569-a725-0da46461dc54")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 167.64 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50166439-08e7-49d8-9435-06b22e2b1d6e")
+		(property "Reference" "C21"
+			(at 169.164 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 169.164 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d2a6ede-4b4b-4119-a2c4-f2014efde8e9")
+		)
+		(pin "2"
+			(uuid "7d189dbb-ea36-41cd-9db7-20b112554ca8")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 436.88 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51a2609c-e4ec-4948-ac23-ec2332b03ec3")
+		(property "Reference" "LED15"
+			(at 436.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 436.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 436.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 436.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "c768ea15-27a4-4ec8-804d-7f943b827796")
+		)
+		(pin "DO"
+			(uuid "08ff4b5d-e228-472e-afdc-54270d7c419b")
+		)
+		(pin "LEDVDD"
+			(uuid "7dd66d5d-880c-4c3b-86b5-977afa8625b9")
+		)
+		(pin "VDD"
+			(uuid "c24acff8-e581-4017-9de9-673bebbda80a")
+		)
+		(pin "VSS"
+			(uuid "36c2492b-48b0-4190-87ee-a10e2c601738")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 66.04 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55516a0e-db23-4af3-83b6-c0c8ae40a8f0")
+		(property "Reference" "C3"
+			(at 67.564 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 67.564 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b6222cc-40e6-4c00-841b-52389e054663")
+		)
+		(pin "2"
+			(uuid "09034334-f70b-4487-8259-5df9e44c73dd")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 576.58 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5759f5e6-24d9-4144-9294-b8509cf03b49")
+		(property "Reference" "LED20"
+			(at 576.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 576.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 576.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 576.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 576.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "dcdc6a9a-7106-4c32-af2a-69da789c5a38")
+		)
+		(pin "DO"
+			(uuid "e164e93e-3623-428b-81ce-2ba0f06cb4f6")
+		)
+		(pin "LEDVDD"
+			(uuid "bf0c9344-3e45-4503-b224-671446debe64")
+		)
+		(pin "VDD"
+			(uuid "5f876d8f-9bd9-4d67-bc4e-c78366a1f51d")
+		)
+		(pin "VSS"
+			(uuid "1e76b076-dd60-4063-b8ee-b55cd0d7598c")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 632.46 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "599ed264-db5f-4a05-a860-f82cd9f0f590")
+		(property "Reference" "LED22"
+			(at 632.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 632.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 632.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 632.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 632.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "d5eff44b-9b73-4fb9-8515-ed50b2c84dbc")
+		)
+		(pin "DO"
+			(uuid "38459629-ec9d-4a9f-8d6a-8949269ca11c")
+		)
+		(pin "LEDVDD"
+			(uuid "a94d0fd5-49f2-4b29-b094-b9399b335fa2")
+		)
+		(pin "VDD"
+			(uuid "e6caf23f-79d5-4652-a89b-e34f4c16f152")
+		)
+		(pin "VSS"
+			(uuid "c4272d55-ab3f-4e43-a6af-839896511b1f")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 279.4 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c578b2c-2917-4aa5-9ff6-db9d2342fb63")
+		(property "Reference" "C20"
+			(at 280.924 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 280.924 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 279.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74f8e685-34c9-4d87-9228-1e0a28a72a29")
+		)
+		(pin "2"
+			(uuid "d8d17f0b-5496-471e-b2aa-be3d2d2ed575")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 241.3 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f65834e-f803-4002-a521-915d77ebfd3c")
+		(property "Reference" "LED8"
+			(at 241.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 241.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 241.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "LEDVDD"
+			(uuid "24b6271d-82e6-4011-aaf4-d709fa063a98")
+		)
+		(pin "VDD"
+			(uuid "4127093a-eef6-471a-92dd-8ff478f249f8")
+		)
+		(pin "VSS"
+			(uuid "97268c43-7087-45b6-865f-f36e7f691df7")
+		)
+		(pin "DO"
+			(uuid "71522a5a-40f8-4e1f-b587-280d854525d9")
+		)
+		(pin "DI"
+			(uuid "ab5ef9db-f9ab-4c05-a2c9-2ba6265cccdb")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 269.24 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65b0fa6c-3e89-4d87-a240-3df8e2a26f3a")
+		(property "Reference" "C24"
+			(at 270.764 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 270.764 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 269.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eaefe78-64b9-4000-b6a5-2e498d561e91")
+		)
+		(pin "2"
+			(uuid "1c7ea495-12b9-43da-9bf4-e545a61ef180")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 116.84 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d167ef9-b6b0-4ba5-b5e4-db4a61c034dc")
+		(property "Reference" "C8"
+			(at 118.364 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 118.364 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "807818b3-b38d-4152-ac3b-bca4cd011b05")
+		)
+		(pin "1"
+			(uuid "7e95b135-dcb9-4261-9c0b-fdf4690439f4")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:GND")
+		(at 353.06 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6efd9bf3-de00-46a2-ba6a-278b5fe91d5e")
+		(property "Reference" "#GND1"
+			(at 353.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 350.52 154.94 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 353.06 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ff2ced4-4218-4308-a4ba-72edbc02c8ff")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "#GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 106.68 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f2f1f06-7136-472a-bfce-f54eea0e0eea")
+		(property "Reference" "C7"
+			(at 108.204 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 108.204 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75070f7e-8bbd-4a73-938d-10b1e546a40c")
+		)
+		(pin "1"
+			(uuid "9ab8193c-39be-4893-97c9-df98aa7c4bbb")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 548.64 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71067b73-1cc1-484e-9647-20913a1bde1c")
+		(property "Reference" "LED19"
+			(at 548.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 548.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 548.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 548.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 548.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "ed12abf9-75ab-4fdf-b1c7-7d12b57d45e3")
+		)
+		(pin "DO"
+			(uuid "be03949a-3503-4971-aaee-d2a047ba798f")
+		)
+		(pin "LEDVDD"
+			(uuid "87bc8af6-1052-44c8-8720-7d0e38e35afc")
+		)
+		(pin "VDD"
+			(uuid "943e316f-153f-4faf-9179-1696f53a3051")
+		)
+		(pin "VSS"
+			(uuid "c888ab53-652e-479c-a563-a9c8c9fa7dd9")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 325.12 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "729d6a67-9415-425b-80f7-490827ee8062")
+		(property "Reference" "LED11"
+			(at 325.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 325.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 325.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "5b727680-9bbb-44a4-a0f0-a069bed19db2")
+		)
+		(pin "DO"
+			(uuid "8c6e8fea-abd7-42e3-82e3-84446f20d9dd")
+		)
+		(pin "LEDVDD"
+			(uuid "96f6474c-0170-45fa-93b9-7bcbba2acffe")
+		)
+		(pin "VDD"
+			(uuid "8cfde317-eb1c-4d61-b8d1-515e700550e9")
+		)
+		(pin "VSS"
+			(uuid "30e9c6fe-b0fb-46ac-b597-44c3b012ad02")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 101.6 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72b01836-3503-4cb8-89ab-bb78380a891c")
+		(property "Reference" "LED3"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "f2a9d37f-1106-457a-94a5-4af285358e2f")
+		)
+		(pin "DO"
+			(uuid "7884f80e-15b2-4534-a554-bdd6ce2dea6a")
+		)
+		(pin "LEDVDD"
+			(uuid "70bfe962-56f4-4ba2-b93c-249fe01a7b8a")
+		)
+		(pin "VDD"
+			(uuid "09f3a8c4-18db-4b8e-826f-371418edc607")
+		)
+		(pin "VSS"
+			(uuid "bb602341-0a54-4c9f-bc6e-bd3916130cf0")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 259.08 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7857cb2a-98a3-4a75-8350-a9414645d787")
+		(property "Reference" "C19"
+			(at 260.604 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 260.604 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99034843-67a2-4969-a1e2-973509847398")
+		)
+		(pin "2"
+			(uuid "3ea9038f-68c3-4cda-a177-636993eb223f")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 297.18 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d2cdc5e-e5ec-4e45-a1bb-f8cdbd3f39c7")
+		(property "Reference" "LED10"
+			(at 297.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 297.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 297.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "b21b39f3-93f5-4a33-a447-da5511efa6e6")
+		)
+		(pin "DO"
+			(uuid "4184cafa-bf61-4a87-a88f-51aeb6904c65")
+		)
+		(pin "LEDVDD"
+			(uuid "cc966698-135a-4aef-992f-ef09f31d3eaf")
+		)
+		(pin "VDD"
+			(uuid "0b9744df-8bce-400e-8e1e-52a196a35046")
+		)
+		(pin "VSS"
+			(uuid "6b4f0df4-9d86-4f91-b31f-912eb27537cf")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 185.42 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f9a056d-a799-49e4-8d26-2b8c0d0ea76f")
+		(property "Reference" "LED6"
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "463c59ef-b192-415b-871d-9960411f010e")
+		)
+		(pin "DO"
+			(uuid "91803c57-b0a7-4bb3-a4be-5813673829d8")
+		)
+		(pin "LEDVDD"
+			(uuid "b2a2b348-9b04-4098-8095-44c97970628c")
+		)
+		(pin "VDD"
+			(uuid "6de57dec-94a5-41bf-8ca5-3490cf19ffb0")
+		)
+		(pin "VSS"
+			(uuid "207f1d11-6a88-4485-acb6-7718b005e7a3")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:VDD")
+		(at 358.14 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8abb02e7-f5f8-4c7b-b2f0-d4030ad4ee20")
+		(property "Reference" "#VDD1"
+			(at 358.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 355.6 114.3 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44f25aa7-ed49-4c41-8c83-3379d339721a")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "#VDD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:FIDUCIAL{dblquote}{dblquote}")
+		(at 182.88 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90577a6d-ab9f-4494-8d5f-6a1ba51cabc7")
+		(property "Reference" "FID1"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FIDUCIAL{dblquote}{dblquote}"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:FIDUCIAL_1MM"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 604.52 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92feb52c-86c0-4b33-9ac5-a1f931f3308d")
+		(property "Reference" "LED21"
+			(at 604.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 604.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 604.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 604.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 604.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "c9c0417b-2914-4103-b341-84382faf0ad3")
+		)
+		(pin "DO"
+			(uuid "a92cdfae-a839-4a26-aa14-822b057ddbe9")
+		)
+		(pin "VDD"
+			(uuid "ad221262-d592-49a0-be5f-8b59991162ec")
+		)
+		(pin "VSS"
+			(uuid "a2f39dd4-878c-4e0e-8693-fb7c31b42251")
+		)
+		(pin "LEDVDD"
+			(uuid "c67ee1ed-0163-4ae4-9e4e-f77f90a98989")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 55.88 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9410302e-0e08-413f-95e7-c419f2b14c14")
+		(property "Reference" "C2"
+			(at 57.404 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 57.404 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdedcac8-4b2a-4607-89b5-2e9a8d138660")
+		)
+		(pin "2"
+			(uuid "b5611ad9-cbe3-4c42-9baa-9da6f31255ab")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 269.24 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bf9d3d7-e100-4a54-9db0-2072160d4181")
+		(property "Reference" "LED9"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "ade2ed7c-90ad-4671-b15b-3124fcc0b4d5")
+		)
+		(pin "DO"
+			(uuid "f582fa5d-1477-40d8-9177-915fabe88be3")
+		)
+		(pin "LEDVDD"
+			(uuid "5222e866-e70f-4a1c-a55c-ec9551667241")
+		)
+		(pin "VDD"
+			(uuid "4717381f-bb9d-47ab-b8aa-f6ccc6b89306")
+		)
+		(pin "VSS"
+			(uuid "4e8aec38-db42-4fb0-9dfe-3d33e9b490ee")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 381 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1886a47-d4a1-49ad-acd5-af4cefb94905")
+		(property "Reference" "LED13"
+			(at 381 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 381 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 381 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 381 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "VDD"
+			(uuid "b4ff8938-5f01-415c-8a9f-3d27e1fe1e90")
+		)
+		(pin "VSS"
+			(uuid "298ddf0f-767e-4a1a-8c6a-06bdb69ff834")
+		)
+		(pin "DI"
+			(uuid "8f8228e9-812a-4059-b961-a718c067fdf9")
+		)
+		(pin "DO"
+			(uuid "167f83d6-05f5-437b-b78e-722ccba782d5")
+		)
+		(pin "LEDVDD"
+			(uuid "8d07724e-090b-4966-9b51-cb74894a6683")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 198.12 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a68f31c7-0876-416b-af13-565a2f748d9b")
+		(property "Reference" "C15"
+			(at 199.644 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 199.644 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 198.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf362522-02ec-4ade-b29d-81bab74f319d")
+		)
+		(pin "2"
+			(uuid "9345abbe-a734-4bff-bbf2-c50300d307ce")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 76.2 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8354fb9-30f0-4834-a343-246f26ce741a")
+		(property "Reference" "C4"
+			(at 77.724 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 77.724 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "984d88eb-128e-4491-a79f-0d2d6e0cc5ba")
+		)
+		(pin "2"
+			(uuid "c0b2bf04-e673-488a-909a-8f7b6dea63cc")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 464.82 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa4712e3-9a3f-4f23-aa71-6aa1342d21c8")
+		(property "Reference" "LED16"
+			(at 464.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 464.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 464.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 464.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "VSS"
+			(uuid "8d58fa08-48de-4017-8fc5-50a75c9dccc4")
+		)
+		(pin "VDD"
+			(uuid "e838349d-57b3-4b07-86ac-4d2e411857b3")
+		)
+		(pin "DI"
+			(uuid "22fe800e-f129-4c27-8b1c-7cf4a652a5ce")
+		)
+		(pin "LEDVDD"
+			(uuid "470ea0fb-e86a-46d8-a93e-06789b65208a")
+		)
+		(pin "DO"
+			(uuid "4bb9bd53-dc34-4302-96a2-9b933786c117")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 86.36 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acdf3ed8-7821-4c4f-9bbd-f0227748f6f7")
+		(property "Reference" "C5"
+			(at 87.884 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 87.884 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1b3a9fc-fedf-4c20-8639-5ebd2e2234f4")
+		)
+		(pin "2"
+			(uuid "fd8cfbb1-7537-468c-a6a5-7ddc5b8e10a2")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 208.28 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2934d69-ecba-44b2-887f-d6a6dcf56ae7")
+		(property "Reference" "C22"
+			(at 209.804 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 209.804 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0243633d-5fa2-430d-878c-dd3d115b9f72")
+		)
+		(pin "2"
+			(uuid "43e88fdc-06d6-449b-84e7-d7e7a3ba365d")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 137.16 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc08cbb5-78bf-4e4c-8db9-2c5b7299bc3c")
+		(property "Reference" "C10"
+			(at 138.684 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 138.684 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8162626-4953-4d29-b09d-b76bb6d58efc")
+		)
+		(pin "2"
+			(uuid "2c79fe24-92b2-4924-a2e3-c16b12e8058e")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 129.54 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd638721-f8cc-44dc-bdca-b9c339f0269a")
+		(property "Reference" "LED4"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "8a28c009-3392-41c9-a845-1ad47d1ba43a")
+		)
+		(pin "DO"
+			(uuid "df2734ed-1985-4d00-adb4-32f5386c80e7")
+		)
+		(pin "LEDVDD"
+			(uuid "8494b5b9-6e63-42ba-82a3-787dc2713161")
+		)
+		(pin "VDD"
+			(uuid "ec9037f5-ac9b-4578-9e8c-c25b82cbfb51")
+		)
+		(pin "VSS"
+			(uuid "cd0ed5f9-a938-41ca-b551-50daad89a704")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:PINHD-1X1CB")
+		(at 22.86 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c09fef50-5524-4114-9dec-d8dab6c68a57")
+		(property "Reference" "JP4"
+			(at 29.21 150.495 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PINHD-1X1CB"
+			(at 29.21 142.24 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:1X01-CLEANBIG"
+			(at 22.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb56873a-c338-4bf5-b388-eae9ec89657e")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 218.44 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2ca05c3-0bb2-41e8-a4f1-de2f96785cd5")
+		(property "Reference" "C16"
+			(at 219.964 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 219.964 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49dba85b-f26d-4bbf-a14d-676526f30fec")
+		)
+		(pin "2"
+			(uuid "6574118b-c7ea-4fd3-ad7e-a62267bdb67d")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:C-EUC0603")
+		(at 127 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c51e7fdc-f2c6-48bb-af49-b6e6aee9924f")
+		(property "Reference" "C9"
+			(at 128.524 83.439 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0603"
+			(at 128.524 88.519 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:C0603"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c3a92b1-5911-4d36-876a-df3eb0fcb171")
+		)
+		(pin "2"
+			(uuid "7fe01d50-f35c-4965-9f7e-a7d7f5a13cd3")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:PINHD-1X1CB")
+		(at 22.86 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9f720b1-b046-454f-946e-57722c731d15")
+		(property "Reference" "JP1"
+			(at 29.21 140.335 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PINHD-1X1CB"
+			(at 29.21 132.08 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:1X01-CLEANBIG"
+			(at 22.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3da9c5bb-9101-4dad-a716-5c7210d677c6")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:VDD")
+		(at 157.48 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cabc184a-196f-4a57-931e-30aee76e7bd5")
+		(property "Reference" "#VDD2"
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 154.94 76.2 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1382d83b-dc43-436e-b8ef-134e3dbc661a")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "#VDD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 353.06 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cee4a29f-f5af-4832-87fe-95a3fe7d3287")
+		(property "Reference" "LED12"
+			(at 353.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 353.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 353.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 353.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "d4aa0a5f-ab0d-4263-87e7-9e9de91c37b4")
+		)
+		(pin "DO"
+			(uuid "34a34956-a552-452c-8d4b-cc1e1a30d090")
+		)
+		(pin "LEDVDD"
+			(uuid "5a73aaea-4977-4e11-8323-ca3323473bfe")
+		)
+		(pin "VDD"
+			(uuid "a246a646-a4e4-4636-a58a-86d6bfe8402d")
+		)
+		(pin "VSS"
+			(uuid "77ff05bb-1ec3-4603-a935-2f401c11b941")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 45.72 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0924ea0-d0cc-4219-82a1-d02070fcc7a1")
+		(property "Reference" "LED1"
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "6766c9b4-262c-482d-ab32-5194b4ec8c0a")
+		)
+		(pin "DO"
+			(uuid "fb2d972d-e54d-4195-a000-00a8357daf0d")
+		)
+		(pin "LEDVDD"
+			(uuid "7cbe3c22-5934-46c7-8816-3e1d5a02b103")
+		)
+		(pin "VDD"
+			(uuid "561f2db8-ab65-469b-9e74-4852f8a6a6e5")
+		)
+		(pin "VSS"
+			(uuid "82c66de1-3497-4f5c-b431-c08e6e8bef90")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:PINHD-1X1CB")
+		(at 711.2 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcded9cb-6bf2-43ce-ab25-a687c731b096")
+		(property "Reference" "JP2"
+			(at 704.85 133.985 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PINHD-1X1CB"
+			(at 704.85 142.24 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:1X01-CLEANBIG"
+			(at 711.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 711.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 711.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b03c7dc3-79d3-491c-8f31-640cd849f40a")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 688.34 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dda27e83-abf2-4af6-bfba-781d369c020a")
+		(property "Reference" "LED24"
+			(at 688.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 688.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 688.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 688.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 688.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "0c8ad2b6-f2cd-494c-871c-83f21007a1a1")
+		)
+		(pin "DO"
+			(uuid "9ac883a5-99ad-484b-83da-3c55438f1854")
+		)
+		(pin "LEDVDD"
+			(uuid "5a6160f2-65cc-40ea-9a1b-987ae3d0dccb")
+		)
+		(pin "VDD"
+			(uuid "abc23f4f-2e13-4dbf-865b-deb21a410d0d")
+		)
+		(pin "VSS"
+			(uuid "24de12c9-32a5-43ad-b06a-e6ba697852da")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 520.7 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dde59e16-f7a1-4b58-a810-fab406d38355")
+		(property "Reference" "LED18"
+			(at 520.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 520.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 520.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 520.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 520.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "1d491108-5215-4dc1-9830-df54dc0f207e")
+		)
+		(pin "DO"
+			(uuid "39874e6e-d4ba-4e89-a514-2f80fdc14a5b")
+		)
+		(pin "LEDVDD"
+			(uuid "e8508989-1f46-41b9-8b84-cc95c46d9633")
+		)
+		(pin "VDD"
+			(uuid "24d8c5c5-9b72-4b6e-bae3-57fb281ca1e0")
+		)
+		(pin "VSS"
+			(uuid "7413de02-f146-4ca3-97ec-448ae0e2b1a6")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 73.66 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df284923-a7a3-4e82-89e5-507ea11f027d")
+		(property "Reference" "LED2"
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "0018f3d4-b105-4249-a1a4-d4a101d08454")
+		)
+		(pin "DO"
+			(uuid "40f464b4-64e7-42be-9e35-ece08ffe0717")
+		)
+		(pin "LEDVDD"
+			(uuid "cbcdc803-7ea6-43d1-b1d0-3dbf6560692b")
+		)
+		(pin "VDD"
+			(uuid "230bebb9-3af6-4c65-9ec9-60c205999d1c")
+		)
+		(pin "VSS"
+			(uuid "aad01627-affb-41be-949a-41bf80055e03")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:GND")
+		(at 157.48 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e82ee110-a449-4932-a3ae-38e5e402d4cc")
+		(property "Reference" "#GND2"
+			(at 157.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4472d871-4bae-45c7-9308-561b6b319a30")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "#GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 157.48 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8cf2d19-f00c-4011-ad27-a41178abfe1a")
+		(property "Reference" "LED5"
+			(at 157.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 157.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 157.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "LEDVDD"
+			(uuid "bcaf2c74-cd85-47cc-a4ca-eec8028acb70")
+		)
+		(pin "VDD"
+			(uuid "030032c7-625e-424e-b002-0bc9569b5083")
+		)
+		(pin "VSS"
+			(uuid "d616e44d-d98b-40b2-ab3a-6b5ad4a1d984")
+		)
+		(pin "DI"
+			(uuid "7d664df5-8504-4a68-af66-4984d6122ca1")
+		)
+		(pin "DO"
+			(uuid "a1b31b7c-4465-4dff-817e-43b8272a3f86")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "neopixel_ring_24-eagle-import:WS28115050")
+		(at 660.4 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4e90d18-dd54-4d58-9981-299ca1cc6f6e")
+		(property "Reference" "LED23"
+			(at 660.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS28115050"
+			(at 660.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "neopixel_ring_24:WS28115050"
+			(at 660.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 660.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 660.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "DI"
+			(uuid "6cc8f0ad-8e25-4dd4-b382-036dc4d4e71e")
+		)
+		(pin "DO"
+			(uuid "a011245e-3d31-4a5b-8f90-c27324b67a03")
+		)
+		(pin "LEDVDD"
+			(uuid "97a9513c-1f60-4591-b7f6-df4a9b9fcd67")
+		)
+		(pin "VDD"
+			(uuid "5ff3b6e0-d5df-4149-b09e-dc8a455efe7b")
+		)
+		(pin "VSS"
+			(uuid "4f27ace8-5437-47d0-b26b-d8d971901434")
+		)
+		(instances
+			(project ""
+				(path "/a22d09a6-a283-4758-89f1-66d8ba836360"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
