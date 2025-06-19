@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 1.016,
+          "height": 1.7272,
+          "width": 1.7272
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "solder_mask_bridge|129192457|88790018|91814572-6726-4143-be18-25f448b0fb22|d1953e25-473d-4c5c-9276-60cecc104840",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
