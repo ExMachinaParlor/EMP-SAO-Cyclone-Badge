@@ -1153,12 +1153,6 @@
 		)
 	)
 	(junction
-		(at 81.28 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "262cd26a-911e-4336-be0d-b7bb043a577d")
-	)
-	(junction
 		(at 81.28 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1242,16 +1236,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 157.48) (xy 81.28 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13ff48b3-24ee-4a2d-919c-0d8e182e886f")
-	)
-	(wire
-		(pts
 			(xy 81.28 160.02) (xy 167.64 160.02)
 		)
 		(stroke
@@ -1322,16 +1306,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 157.48) (xy 57.15 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d6fcfad-54bc-4b05-96b8-36aed31da1ef")
-	)
-	(wire
-		(pts
 			(xy 142.24 44.45) (xy 142.24 109.22)
 		)
 		(stroke
@@ -1382,16 +1356,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 101.6) (xy 68.58 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67eb030e-f637-4198-a761-fcd1f6edbb21")
-	)
-	(wire
-		(pts
 			(xy 69.85 134.62) (xy 81.28 134.62)
 		)
 		(stroke
@@ -1419,16 +1383,6 @@
 			(type default)
 		)
 		(uuid "6eb0fe86-414e-44ea-8076-cf7a811a8830")
-	)
-	(wire
-		(pts
-			(xy 81.28 146.05) (xy 81.28 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "751f845c-0e08-4889-92ec-f440c3e89ad0")
 	)
 	(wire
 		(pts
@@ -1522,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 157.48) (xy 81.28 160.02)
+			(xy 81.28 146.05) (xy 81.28 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1569,16 +1523,6 @@
 			(type default)
 		)
 		(uuid "e4a12d24-16ae-4f29-9df6-957a03c78726")
-	)
-	(wire
-		(pts
-			(xy 57.15 157.48) (xy 57.15 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75217a4-ca9e-4e51-a9d9-4fbec77949a9")
 	)
 	(wire
 		(pts
@@ -2253,73 +2197,6 @@
 			(project ""
 				(path "/5abfebdb-db98-4538-9b9b-a79c9de2c6a9"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 64.77 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3ae4982-6d2e-4b45-ba57-6140ff881ead")
-		(property "Reference" "SW3"
-			(at 64.77 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 64.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 64.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 64.77 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da62e372-df0a-4c78-bd55-b532dd97a0f9")
-		)
-		(pin "2"
-			(uuid "b47ab1b9-9ac4-4e34-a250-81f3f04c5d20")
-		)
-		(instances
-			(project "EMP_Cyclone_SAO_v1"
-				(path "/5abfebdb-db98-4538-9b9b-a79c9de2c6a9"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
