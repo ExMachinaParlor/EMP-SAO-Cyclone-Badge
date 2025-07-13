@@ -3,9 +3,9 @@
 /***********************************************************
    Pin & LED Configuration
  ***********************************************************/
-#define RING1_PIN       6  // Data pin for the outer NeoPixel ring
-#define RING2_PIN       7  // Data pin for the inner NeoPixel ring
-#define BUTTON_PIN      10  // Push button input pin
+#define RING1_PIN       2  // Data pin for the outer NeoPixel ring
+#define RING2_PIN       2  // Data pin for the inner NeoPixel ring
+#define BUTTON_PIN      4  // Push button input pin
 
 // Updated to match the actual number of LEDs on each ring:
 #define RING1_NUMPIXELS 24 // Ring 1 now has 24 LEDs
