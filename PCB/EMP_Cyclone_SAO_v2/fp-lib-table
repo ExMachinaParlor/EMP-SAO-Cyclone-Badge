@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "neopixelrings-2")(type "KiCad")(uri "${KIPRJMOD}/neopixelrings-2.pretty")(options "")(descr ""))
+)
