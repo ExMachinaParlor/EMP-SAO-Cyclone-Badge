@@ -31,7 +31,11 @@ After the animation the SAO returns to ATTRACT_MODE
 - 1x [SAO PCB](./PCB/EMP_Cyclone_SAO_v2/Gerber.zip)
 - 8x 0.1" Header pins (Included in ESP32-C3 purchase)
 
-
 # Flashing the Badge
 - Use the arduino IDE
 - Set board type to "nologo ESP32C3 Supermini"
+
+# Future Work
+- Add multiplayer mode
+- Test with WLED and home assistant
+- Use WiFi/BT to synchonize lights on multiple badges
