@@ -3,19 +3,20 @@
 /***********************************************************
    Pin & LED Configuration
  ***********************************************************/
-#define RING1_PIN       2  // Data pin for the outer NeoPixel ring
-#define RING2_PIN       2  // Data pin for the inner NeoPixel ring
-#define BUTTON_PIN      4  // Push button input pin
-
-// Updated to match the actual number of LEDs on each ring:
-#define RING1_NUMPIXELS 24 // Ring 1 now has 24 LEDs
-#define RING2_NUMPIXELS 16 // Ring 2 remains at 16 LEDs
+#define DATA_PIN            2   // Data pin for both NeoPixel rings
+#define SMALL_RING_NUM      16  // Number of LEDs in the small (inner) ring
+#define LARGE_RING_NUM      24  // Number of LEDs in the large (outer) ring
+#define TOTAL_PIXELS        (SMALL_RING_NUM + LARGE_RING_NUM)
+#define BUTTON_PIN          4   // Push button input pin
 
 /***********************************************************
-   NeoPixel Objects
+   NeoPixel Object
  ***********************************************************/
-Adafruit_NeoPixel ring1 = Adafruit_NeoPixel(RING1_NUMPIXELS, RING1_PIN, NEO_GRB + NEO_KHZ800);
-Adafruit_NeoPixel ring2 = Adafruit_NeoPixel(RING2_NUMPIXELS, RING2_PIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip(TOTAL_PIXELS, DATA_PIN, NEO_GRB + NEO_KHZ800);
+
+// Offsets into the single strip
+const uint16_t smallOffset = 0;
+const uint16_t largeOffset = SMALL_RING_NUM;
 
 /***********************************************************
    Game State Definitions
@@ -26,44 +27,29 @@ enum GameState {
   PLAY_GAME,
   RESULT
 };
-
 GameState currentState = ATTRACT_MODE;
 
 /***********************************************************
    Game Variables
  ***********************************************************/
-// Timing & Animation
-unsigned long chaseInterval = 80;   // Delay (ms) between increments of the chase
-unsigned long lastChaseUpdate = 0;    // Tracks when we last moved the chase light
+unsigned long chaseInterval = 80;     // Delay (ms) between chase steps
+unsigned long lastChaseUpdate = 0;    // Time of last chase step
+int chaseIndex = 0;                   // Current chase position (0..LARGE_RING_NUM-1)
+int jackpotIndex = 0;                 // Winning position on large ring
+bool winner = false;                  // Outcome flag
 
-// LED indices
-int chaseIndex = 0;      // Current chasing light position on ring1
-int jackpotIndex = 0;    // The "winning" LED index on ring1
-
-// Button Debounce
+// Button debounce
 bool lastButtonState = HIGH;
 bool buttonPressed = false;
-
-// Result / Animations
-bool winner = false;     // Set true if the player hits the jackpot
 
 /***********************************************************
    Setup
  ***********************************************************/
 void setup() {
-  // Initialize Serial (for debugging)
   Serial.begin(9600);
-
-  // Initialize NeoPixel rings
-  ring1.begin();
-  ring2.begin();
-  ring1.show();  // Turn off all LEDs initially
-  ring2.show();
-
-  // Initialize button pin (internal pull-up)
+  strip.begin();
+  strip.show(); // Initialize all off
   pinMode(BUTTON_PIN, INPUT_PULLUP);
-
-  // Print a startup message
   Serial.println("Cyclone-Style Game Starting...");
 }
 
@@ -71,127 +57,81 @@ void setup() {
    Main Loop
  ***********************************************************/
 void loop() {
-  // Always check the button state
   readButton();
-
-  // State Machine
   switch (currentState) {
-    case ATTRACT_MODE:
-      attractMode();
-      break;
-
-    case START_GAME:
-      startGame();
-      break;
-
-    case PLAY_GAME:
-      playGame();
-      break;
-
-    case RESULT:
-      showResult();
-      break;
+    case ATTRACT_MODE: attractMode(); break;
+    case START_GAME:   startGame();   break;
+    case PLAY_GAME:    playGame();    break;
+    case RESULT:       showResult();  break;
   }
 }
 
 /***********************************************************
-   State: Attract Mode
-   Simple animation to draw attention
+   Attract Mode
  ***********************************************************/
 void attractMode() {
   static unsigned long lastUpdate = 0;
-  unsigned long currentTime = millis();
+  unsigned long t = millis();
+  if (t - lastUpdate > 100) {
+    lastUpdate = t;
+    static int attractIdx = 0;
+    strip.clear();
 
-  // Example: rotate a single pixel around ring1, 
-  // and blink ring2 in a different color.
-  if (currentTime - lastUpdate > 100) {
-    lastUpdate = currentTime;
+    // Rotate one purple pixel on outer (large) ring
+    strip.setPixelColor(largeOffset + attractIdx, strip.Color(50, 0, 50));
 
-    // Simple rotation on ring1
-    static int attractIndex = 0;
-    ring1.clear();
-    ring1.setPixelColor(attractIndex, ring1.Color(50, 0, 50)); // Purple
-    ring1.show();
-
-    // Blink ring2 every few steps
-    ring2.clear();
-    if (attractIndex % 4 < 2) {
-      for (int i = 0; i < RING2_NUMPIXELS; i++) {
-        ring2.setPixelColor(i, ring2.Color(0, 30, 0)); // Dim green
+    // Blink inner (small) ring dim green every other step
+    if ((attractIdx % 4) < 2) {
+      for (uint16_t i = 0; i < SMALL_RING_NUM; i++) {
+        strip.setPixelColor(smallOffset + i, strip.Color(0, 30, 0));
       }
     }
-    ring2.show();
 
-    attractIndex = (attractIndex + 1) % RING1_NUMPIXELS;
+    strip.show();
+    attractIdx = (attractIdx + 1) % LARGE_RING_NUM;
   }
-
-  // If button pressed, move to START_GAME
-  if (buttonPressed) {
-    buttonPressed = false;
-    currentState = START_GAME;
-  }
+  if (buttonPressed) { buttonPressed = false; currentState = START_GAME; }
 }
 
 /***********************************************************
-   State: Start Game
-   Initialize variables for a new round and show jackpot on Ring 1.
+   Start Game
  ***********************************************************/
 void startGame() {
-  // Pick a random jackpot index for Ring 1
-  jackpotIndex = random(0, RING1_NUMPIXELS);
-  Serial.print("New Game - Jackpot Index (Ring 1): ");
+  jackpotIndex = random(0, LARGE_RING_NUM);
+  Serial.print("New Game - Jackpot Index (outer ring): ");
   Serial.println(jackpotIndex);
-
-  // Reset the chase and variables
   chaseIndex = 0;
   lastChaseUpdate = millis();
   winner = false;
 
-  // Clear both rings
-  ring1.clear();
-  ring1.show();
-  ring2.clear();
-  ring2.show();
+  // Clear all
+  strip.clear();
+  strip.show();
 
-  // Show jackpot on Ring 1: light the jackpot LED in blue for 2 seconds
-  ring1.setPixelColor(jackpotIndex, ring1.Color(0, 0, 255)); // Blue indicator
-  ring1.show();
+  // Show jackpot on outer ring (blue) for 2s
+  strip.setPixelColor(largeOffset + jackpotIndex, strip.Color(0, 0, 255));
+  strip.show();
   delay(2000);
 
-  // Clear the jackpot indicator from Ring 1 before starting the chase
-  ring1.clear();
-  ring1.show();
-
-  // Transition to PLAY_GAME
+  strip.clear();
+  strip.show();
   currentState = PLAY_GAME;
 }
 
 /***********************************************************
-   State: Play Game
-   Move the chasing light around Ring 1.
-   If button pressed, capture result.
+   Play Game
  ***********************************************************/
 void playGame() {
-  unsigned long currentTime = millis();
-
-  // Update the chasing light based on chaseInterval
-  if (currentTime - lastChaseUpdate >= chaseInterval) {
-    lastChaseUpdate = currentTime;
-
-    // Move to next LED
-    chaseIndex = (chaseIndex + 1) % RING1_NUMPIXELS;
-
-    // Light up Ring 1 with the chasing light (red)
-    ring1.clear();
-    ring1.setPixelColor(chaseIndex, ring1.Color(255, 0, 0));
-    ring1.show();
+  unsigned long t = millis();
+  if (t - lastChaseUpdate >= chaseInterval) {
+    lastChaseUpdate = t;
+    chaseIndex = (chaseIndex + 1) % LARGE_RING_NUM;
+    strip.clear();
+    strip.setPixelColor(largeOffset + chaseIndex, strip.Color(255, 0, 0));
+    strip.show();
   }
-
-  // Check for button press to "stop" the chase
   if (buttonPressed) {
     buttonPressed = false;
-
-    // Check if the chasing light stops at the jackpot
     if (chaseIndex == jackpotIndex) {
       winner = true;
       Serial.println("Jackpot HIT!");
@@ -202,70 +142,44 @@ void playGame() {
       Serial.print(", jackpot is ");
       Serial.println(jackpotIndex);
     }
-
     currentState = RESULT;
   }
 }
 
 /***********************************************************
-   State: Result
-   Show win/lose animation on both rings.
+   Result Animation
  ***********************************************************/
 void showResult() {
   if (winner) {
-    // Win animation: flash both rings green
     for (int i = 0; i < 3; i++) {
-      ring1.fill(ring1.Color(0, 255, 0));
-      ring1.show();
-      ring2.fill(ring2.Color(0, 255, 0));
-      ring2.show();
-      delay(300);
-
-      ring1.clear();
-      ring1.show();
-      ring2.clear();
-      ring2.show();
-      delay(300);
+      // Flash both rings green
+      for (uint16_t p = 0; p < TOTAL_PIXELS; p++) strip.setPixelColor(p, strip.Color(0, 255, 0));
+      strip.show(); delay(300);
+      strip.clear(); strip.show(); delay(300);
     }
   } else {
-    // Lose animation: show jackpot and stopped LED on Ring 1, and flash Ring 2 red
     for (int i = 0; i < 3; i++) {
-      ring1.clear();
-      // Jackpot LED in yellow
-      ring1.setPixelColor(jackpotIndex, ring1.Color(255, 255, 0));
-      // Stopped LED in red
-      ring1.setPixelColor(chaseIndex, ring1.Color(255, 0, 0));
-      ring1.show();
-
-      ring2.fill(ring2.Color(255, 0, 0));
-      ring2.show();
-      delay(300);
-
-      ring1.clear();
-      ring1.show();
-      ring2.clear();
-      ring2.show();
-      delay(300);
+      strip.clear();
+      // Show jackpot (yellow) and stopped (red) on outer ring
+      strip.setPixelColor(largeOffset + jackpotIndex, strip.Color(255, 255, 0));
+      strip.setPixelColor(largeOffset + chaseIndex,   strip.Color(255, 0, 0));
+      // Flash inner ring red
+      for (uint16_t p = 0; p < SMALL_RING_NUM; p++) strip.setPixelColor(smallOffset + p, strip.Color(255, 0, 0));
+      strip.show(); delay(300);
+      strip.clear(); strip.show(); delay(300);
     }
   }
-
-  // After animation, return to attract mode
   currentState = ATTRACT_MODE;
 }
 
 /***********************************************************
-   readButton()
-   - Reads button state with basic debounce.
-   - Sets a global 'buttonPressed' flag on the falling edge.
-   - Includes a debug print for the press.
+   readButton(): Debounce & detect press
  ***********************************************************/
 void readButton() {
-  bool currentButtonState = digitalRead(BUTTON_PIN);
-
-  // Check for falling edge: HIGH -> LOW
-  if (lastButtonState == HIGH && currentButtonState == LOW) {
+  bool currState = digitalRead(BUTTON_PIN);
+  if (lastButtonState == HIGH && currState == LOW) {
     Serial.println("Button pressed!");
     buttonPressed = true;
   }
-  lastButtonState = currentButtonState;
+  lastButtonState = currState;
 }
