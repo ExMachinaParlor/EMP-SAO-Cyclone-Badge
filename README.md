@@ -31,3 +31,6 @@ After the animation the SAO returns to ATTRACT_MODE
 - 8x 0.1" Header pins (Included in ESP32-C3 purchase)
 - 1x [2x3 0.1" Header pin box connector](https://www.amazon.com/gp/product/B00UBWKQLA/)
 
+# Flashing the Badge
+- Use the arduino IDE
+- Set board type to "nologo ESP32C3 Supermini"
