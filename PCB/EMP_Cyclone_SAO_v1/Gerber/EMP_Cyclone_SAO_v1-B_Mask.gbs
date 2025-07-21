@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.1*%
-%TF.CreationDate,2025-07-01T02:02:19-04:00*%
+%TF.CreationDate,2025-07-21T02:07:33-04:00*%
 %TF.ProjectId,EMP_Cyclone_SAO_v1,454d505f-4379-4636-9c6f-6e655f53414f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.1) date 2025-07-01 02:02:19*
+G04 Created by KiCad (PCBNEW 9.0.1) date 2025-07-21 02:07:33*
 %MOMM*%
 %LPD*%
 G01*
@@ -37,10 +37,10 @@ G04 Aperture macros list end*
 G04 APERTURE END LIST*
 D10*
 %TO.C,U1*%
-X115264670Y-85495766D03*
-X121051005Y-100466418D03*
-X85495766Y-84735330D03*
 X84769165Y-114549852D03*
+X85495766Y-84735330D03*
+X121051005Y-100466418D03*
+X115264670Y-85495766D03*
 %TD*%
 D11*
 %TO.C,SW1*%

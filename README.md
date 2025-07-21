@@ -23,11 +23,12 @@ Otherwise, a lose animation of flashing red
 After the animation the SAO returns to ATTRACT_MODE
 
 # SAO BOM
-- [ESP32-C3 Nano](https://www.aliexpress.us/item/3256806299801446.html)
+- [ESP32-C3 Nano](https://www.amazon.com/ESP32-C3-Development-Bluetooth-Running-Frequency/dp/B0DFWG87JS/?th=1)
 - 1x [24 LED Neopixel ring](https://www.amazon.com/dp/B0B2D7742J)
 - 1x [16 LED Neopixel ring](https://www.amazon.com/dp/B0B2D5QXG5)
 - 2x [Push button](https://www.amazon.com/YOUFEN-Button-Switch-Momentary-Tactile/dp/B0DPJVH8PC)
-- 1x PCB (from assets here)
-- 8x 0.1" Header pins (Included in ESP32-C3 purchase)
 - 1x [2x3 0.1" Header pin box connector](https://www.amazon.com/gp/product/B00UBWKQLA/)
+- 1x [SAO PCB]('./PCB/EMP_Cyclone_SAO_v1/Gerber.zip')
+- 8x 0.1" Header pins (Included in ESP32-C3 purchase)
+
 
